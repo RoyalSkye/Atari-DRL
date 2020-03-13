@@ -257,31 +257,22 @@ class LazyFrames(object):
     def frame(self, i):
         return self._force()[..., i]
 
-def make_atari(env_id, max_episode_steps=None):
+def create_atari_env(env_id, episode_life=False, frame_stack=True, scale=True, clip_rewards=False):
     env = gym.make(env_id)
-    assert 'NoFrameskip' in env.spec.id
+    if 'NoFrameskip' in env_id:
+        print("NoopResetEnv and MaxAndSkipEnv - from wrappers")
+        assert 'NoFrameskip' in env.spec.id
     env = NoopResetEnv(env, noop_max=30)
     env = MaxAndSkipEnv(env, skip=4)
-    if max_episode_steps is not None:
-        env = TimeLimit(env, max_episode_steps=max_episode_steps)
-    return env
-
-def wrap_deepmind(env, episode_life=False, clip_rewards=False, frame_stack=True, scale=False):
-    """Configure environment for DeepMind-style Atari.
-    """
-    env = NoopResetEnv(env, noop_max=30)
     if episode_life:
-        print("episodic - from atari_wrappers")
         env = EpisodicLifeEnv(env)
     if 'FIRE' in env.unwrapped.get_action_meanings():
-        print("Fire - from atari_wrappers")
+        print("Fire - from wrappers")
         env = FireResetEnv(env)
     env = WarpFrame(env)
     if scale:
-        print("scale - from atari_wrappers")
         env = ScaledFloatFrame(env)
     if clip_rewards:
-        print("clip - from atari_wrappers")
         env = ClipRewardEnv(env)
     if frame_stack:
         env = FrameStack(env, 4)

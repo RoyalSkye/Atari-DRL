@@ -29,6 +29,8 @@ def select_action(state):
     global steps_done
     sample = random.random()
     epsilon -= EPS_DECAY
+    if epsilon <= EPS_END:
+        epsilon = EPS_END
     # eps_threshold = EPS_END + (EPS_START - EPS_END) * \
     #     math.exp(-1. * steps_done / EPS_DECAY)
     steps_done += 1
@@ -88,6 +90,9 @@ def optimize_model():
     loss.backward()
     for param in policy_net.parameters():
         param.grad.data.clamp_(-1, 1)
+    # for para in policy_net.parameters():
+    #     if para.grad is not None:
+    #         print("para.grad not None1")
     optimizer.step()
     return loss.item()
 
@@ -104,9 +109,7 @@ def get_state(obs):
     return state.unsqueeze(0)
 
 def train(env, n_episodes, render=False):
-    env = gym.wrappers.Monitor(env, './train_model', force=True)
-    loss_list = []
-    reward_list = []
+    env = gym.wrappers.Monitor(env, './train_model_scale', force=True)
     start_optimize = False
     loss = 0.0
     score = 0
@@ -132,6 +135,9 @@ def train(env, n_episodes, render=False):
             if steps_done > INITIAL_MEMORY:
                 start_optimize = True
                 loss += optimize_model()
+                if (steps_done - INITIAL_MEMORY) % 1000 == 0:
+                    policy_net.loss_list.append(loss / 1000)
+                    loss = 0.0
             # optimize_model()
             if steps_done % TARGET_UPDATE == 0:
                 target_net.load_state_dict(policy_net.state_dict())
@@ -139,16 +145,13 @@ def train(env, n_episodes, render=False):
                 break
             # time.sleep(0.1)
         score += total_reward
-        print('Episode {}/{} Step_total {} steps: {} Total reward: {}'.format(episode, n_episodes, steps_done, step + 1, total_reward))
-        if steps_done > INITIAL_MEMORY and (steps_done - INITIAL_MEMORY) % 1000 == 0:
-            loss_list.append(loss/1000)
-            loss = 0.0
+        print('Episode {}/{} Step_total {} steps: {} epsilon {} Total reward: {}'.format(episode, n_episodes, steps_done, step + 1, epsilon, total_reward))
         if episode % 10 == 0:
-            reward_list.append(score/10)
+            policy_net.reward_list.append(score/10)
             score = 0
         if episode % 100 == 0 and start_optimize:
-            show(loss_list, 1000, "loss per 1000 steps", "loss", "loss.png")
-            show(reward_list, 10, "score per 10 episodes", "score", "score.png")
+            show(policy_net.loss_list, 1000, "loss per 1000 steps", "loss", "steps", "loss_scale.png")
+            show(policy_net.reward_list, 10, "score per 10 episodes", "score", "episodes", "score_scale.png")
             torch.save(policy_net, MODEL_PATH)
         # time.sleep(2)
     env.close()
@@ -180,10 +183,10 @@ def test(env, n_episodes, policy, render=True):
     env.close()
     return
 
-def show(y, scale, des, ydes, path):
+def show(y, scale, des, ydes, xdes, path):
     x = [i*scale for i in range(len(y))]
     plt.plot(x, y, 'b-', label=des)
-    plt.xlabel('episode')
+    plt.xlabel(xdes)
     plt.ylabel(ydes)
     plt.legend()
     plt.savefig(path)
@@ -197,27 +200,24 @@ if __name__ == '__main__':
     BATCH_SIZE = 32
     GAMMA = 0.99
     EPS_START = 1.0
-    EPS_END = 0.01
+    EPS_END = 0.02
     EXPLORE_STEP = 1000000
     EPS_DECAY = (EPS_START - EPS_END) / EXPLORE_STEP
-    # EPS_DECAY = 40000
     TARGET_UPDATE = 1000
     RENDER = False
-    lr = 1e-4
+    lr = 0.0001
     MEMORY_SIZE = 1000000
     INITIAL_MEMORY = 100000
     NUM_EPISODES = 100000
     HEIGHT = 84
     WIDTH = 84
     TEST_EPISODES = 10
-    MODEL_PATH = 'dqn_model1.pt'
+    MODEL_PATH = 'dqn_model_scale.pt'
 
     # create environment
-    env = gym.make("Breakout-v0").unwrapped
     # See wrappers.py
-    # env = make_env(env, episodic_life=False)
-    env = wrap_deepmind(env, episode_life=False, clip_rewards=False, frame_stack=True, scale=False)
-    epsilon = 1.0
+    env = create_atari_env("Breakout-v0", episode_life=False, frame_stack=True, scale=True, clip_rewards=False)
+    epsilon = EPS_START
     steps_done = 0
     # initialize replay memory
     memory = ReplayMemory(MEMORY_SIZE)
