@@ -14,7 +14,6 @@ from envs import *
 def train(pid, rank, args, shared_model, counter, lock, optimizer=None):
     torch.manual_seed(args.seed + rank)
     env = create_atari_env(args.env_name)
-    # env = create_atari_env(args.env_name, episode_life=False, frame_stack=True, scale=True, normalize=False, clip_rewards=False)
     filepath = "./train_model_" + str(rank)
     env = gym.wrappers.Monitor(env, filepath, force=True)
     env.seed(args.seed + rank)
@@ -92,7 +91,6 @@ def train(pid, rank, args, shared_model, counter, lock, optimizer=None):
             # advantege = Q - V
             R = rewards[i] + args.gamma * R  # n-step
             advantage = R - values[i]
-            # TODO: Confused
             value_loss = value_loss + 0.5 * advantage.pow(2)
             # Generalized Advantage Estimation
             td_error = rewards[i] + args.gamma * values[i + 1] - values[i]

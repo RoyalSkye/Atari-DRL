@@ -26,27 +26,26 @@ parser.add_argument('--entropy-coef', type=float, default=0.01,
 parser.add_argument('--value-loss-coef', type=float, default=0.5,
                     help='value loss coefficient (default: 0.5)')
 parser.add_argument('--max-grad-norm', type=float, default=40,
-                    help='value loss coefficient (default: 40)')
+                    help='clamping the values of gradient (default: 40)')
 parser.add_argument('--seed', type=int, default=1,
                     help='random seed (default: 1)')
-parser.add_argument('--num-processes', type=int, default=2,
+parser.add_argument('--num-processes', type=int, default=32,
                     help='how many training processes to use (default: 4)')
 parser.add_argument('--num-steps', type=int, default=20,
                     help='number of forward steps in A3C (default: 20)')
-parser.add_argument('--max-episode-length', type=int, default=1000000,
-                    help='maximum length of an episode (default: 1000000)')
 parser.add_argument('--env-name', default='Breakout-v0',
                     help='environment to train on (default: Breakout-v0)')
 parser.add_argument('--no-shared', default=False,
                     help='use an optimizer without shared momentum.')
 parser.add_argument('--model-path', default="./model.pt",
-                    help='use an optimizer without shared momentum.')
+                    help='save model path.')
 parser.add_argument('--log-dir', default="./logs/",
-                    help='use an optimizer without shared momentum.')
-
+                    help='log dir path.')
+parser.add_argument('--test-episode', type=int, default=10,
+                    help='how many episodes to test model each time.')
 
 if __name__ == '__main__':
-    # TODO: Train with different env settings
+    # TODO: loss
     mp.set_start_method("spawn")
     os.environ['OMP_NUM_THREADS'] = '1'
     os.environ['CUDA_VISIBLE_DEVICES'] = ""
@@ -56,7 +55,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     torch.manual_seed(args.seed)
     env = create_atari_env(args.env_name)
-    # env = create_atari_env(args.env_name, episode_life=False, frame_stack=True, scale=True, normalize=False, clip_rewards=False)
     shared_model = ActorCritic(env.observation_space.shape[0], env.action_space.n)
     shared_model.share_memory()
     print(shared_model)

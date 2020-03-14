@@ -3,21 +3,16 @@ import gym
 import numpy as np
 from gym.spaces.box import Box
 
-
-# Taken from https://github.com/openai/universe-starter-agent
 def create_atari_env(env_id):
     env = gym.make(env_id)
-    env = AtariRescale80x80(env)
+    env = AtariRescale84x84(env)
     env = NormalizedEnv(env)
     return env
 
 
-def _process_frame80(frame):
+def _process_frame84(frame):
     frame = frame[34:34 + 160, :160]
-    # Resize by half, then down to 42x42 (essentially mipmapping). If
-    # we resize directly we lose pixels that, when mapped to 42x42,
-    # aren't close enough to the pixel boundary.
-    frame = cv2.resize(frame, (80, 80))
+    frame = cv2.resize(frame, (84, 84))
     # frame = cv2.resize(frame, (42, 42))
     frame = frame.mean(2, keepdims=True)
     frame = frame.astype(np.float32)
@@ -26,14 +21,14 @@ def _process_frame80(frame):
     return frame
 
 
-class AtariRescale80x80(gym.ObservationWrapper):
+class AtariRescale84x84(gym.ObservationWrapper):
     def __init__(self, env=None):
-        # super(AtariRescale80x80, self).__init__(env)
+        # super(AtariRescale84x84, self).__init__(env)
         gym.ObservationWrapper.__init__(self, env)
-        self.observation_space = Box(0.0, 1.0, [1, 80, 80])
+        self.observation_space = Box(0.0, 1.0, [1, 84, 84])
 
     def observation(self, observation):
-        return _process_frame80(observation)
+        return _process_frame84(observation)
 
 
 class NormalizedEnv(gym.ObservationWrapper):
