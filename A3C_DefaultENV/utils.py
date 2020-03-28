@@ -38,11 +38,11 @@ def ensure_shared_grads(model, shared_model):
 
 def get_state(obs):
     state = np.array(obs)
-    # print(state.shape)  # 84*84*4
+    # print(state.shape)
     state = state.transpose((2, 0, 1))
     state = state.astype(np.float32)
     state = torch.from_numpy(state)
-    # print(state.size())  # [4, 84, 84]
+    # print(state.size())
     return state.unsqueeze(0)
 
 
@@ -105,5 +105,5 @@ def play_atari(env_name='Breakout-v0', path='./model.pt', render=False):
     print(time.time() - start_time)
 
 if __name__ == '__main__':
-    play_atari(path='./res/model.pt')
+    play_atari(path='./model/model.pt')
     # save_csv('./steps_average_score.csv', 1, 10)

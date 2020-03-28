@@ -45,7 +45,6 @@ parser.add_argument('--test-episode', type=int, default=10,
                     help='how many episodes to test model each time.')
 
 if __name__ == '__main__':
-    # TODO: loss
     mp.set_start_method("spawn")
     os.environ['OMP_NUM_THREADS'] = '1'
     os.environ['CUDA_VISIBLE_DEVICES'] = ""

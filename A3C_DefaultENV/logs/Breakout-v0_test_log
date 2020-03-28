@@ -1,511 +1,259 @@
-2020-03-11 19:03:52,696 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:03:52,696 : Time 00h 00m 01s, already train 427 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:04:54,562 : Deadlock -> Done 2 lives remained with action 1
-2020-03-11 19:04:54,562 : Time 00h 01m 03s, already train 10213 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:05:56,288 : Deadlock -> Done 2 lives remained with action 1
-2020-03-11 19:05:56,288 : Time 00h 02m 05s, already train 20109 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:07:00,161 : Deadlock -> Done 2 lives remained with action 1
-2020-03-11 19:07:00,161 : Time 00h 03m 09s, already train 30446 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:08:06,575 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:08:06,576 : Time 00h 04m 15s, already train 41720 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:09:11,511 : Deadlock -> Done 2 lives remained with action 1
-2020-03-11 19:09:11,512 : Time 00h 05m 20s, already train 52801 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:10:16,286 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:10:16,286 : Time 00h 06m 25s, already train 64166 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:11:20,628 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:11:20,629 : Time 00h 07m 29s, already train 75314 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:12:25,658 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:12:25,658 : Time 00h 08m 34s, already train 86713 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:13:29,929 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:13:29,930 : Time 00h 09m 39s, already train 98458 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:14:34,199 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:14:34,200 : Time 00h 10m 43s, already train 110075 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:15:37,038 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:15:37,038 : Time 00h 11m 46s, already train 121203 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:16:43,275 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:16:43,276 : Time 00h 12m 52s, already train 133177 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:17:49,123 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:17:49,124 : Time 00h 13m 58s, already train 145225 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:18:54,062 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:18:54,063 : Time 00h 15m 03s, already train 157191 steps, episode reward 0.0 in 101 steps
-2020-03-11 19:19:57,077 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:19:57,077 : Time 00h 16m 06s, already train 168757 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:20:58,649 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:20:58,650 : Time 00h 17m 07s, already train 180069 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:22:00,327 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:22:00,327 : Time 00h 18m 09s, already train 191539 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:23:04,818 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:23:04,818 : Time 00h 19m 13s, already train 203670 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:24:10,450 : Deadlock -> Done 5 lives remained with action 3
-2020-03-11 19:24:10,451 : Time 00h 20m 19s, already train 215604 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:25:15,807 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:25:15,807 : Time 00h 21m 24s, already train 227553 steps, episode reward 0.0 in 101 steps
-2020-03-11 19:26:19,970 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:26:19,970 : Time 00h 22m 29s, already train 239415 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:27:22,875 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:27:22,875 : Time 00h 23m 32s, already train 251117 steps, episode reward 0.0 in 102 steps
-2020-03-11 19:28:26,868 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 19:28:26,868 : Time 00h 24m 36s, already train 263113 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:29:32,052 : Deadlock -> Done 4 lives remained with action 0
-2020-03-11 19:29:32,053 : Time 00h 25m 41s, already train 275360 steps, episode reward 0.0 in 135 steps
-2020-03-11 19:30:36,705 : Deadlock -> Done 5 lives remained with action 2
-2020-03-11 19:30:36,706 : Time 00h 26m 45s, already train 287429 steps, episode reward 0.0 in 114 steps
-2020-03-11 19:31:41,335 : Deadlock -> Done 5 lives remained with action 2
-2020-03-11 19:31:41,335 : Time 00h 27m 50s, already train 299548 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:32:45,269 : Deadlock -> Done 5 lives remained with action 2
-2020-03-11 19:32:45,270 : Time 00h 28m 54s, already train 311724 steps, episode reward 0.0 in 100 steps
-2020-03-11 19:33:53,687 : Time 00h 30m 02s, already train 324700 steps, episode reward 2.0 in 265 steps
-2020-03-11 19:35:03,988 : Time 00h 31m 13s, already train 338466 steps, episode reward 2.0 in 263 steps
-2020-03-11 19:36:11,717 : Deadlock -> Done 3 lives remained with action 0
-2020-03-11 19:36:11,717 : Time 00h 32m 20s, already train 352164 steps, episode reward 0.0 in 151 steps
-2020-03-11 19:37:18,537 : Time 00h 33m 27s, already train 365522 steps, episode reward 2.0 in 263 steps
-2020-03-11 19:38:28,949 : Time 00h 34m 38s, already train 381644 steps, episode reward 3.0 in 282 steps
-2020-03-11 19:39:39,740 : Time 00h 35m 48s, already train 403342 steps, episode reward 3.0 in 284 steps
-2020-03-11 19:40:47,671 : Time 00h 36m 56s, already train 424993 steps, episode reward 2.0 in 237 steps
-2020-03-11 19:41:57,530 : Time 00h 38m 06s, already train 447274 steps, episode reward 3.0 in 279 steps
-2020-03-11 19:43:11,822 : Time 00h 39m 21s, already train 471525 steps, episode reward 3.0 in 287 steps
-2020-03-11 19:44:21,858 : Time 00h 40m 31s, already train 496056 steps, episode reward 3.0 in 276 steps
-2020-03-11 19:45:33,988 : Time 00h 41m 43s, already train 521281 steps, episode reward 3.0 in 312 steps
-2020-03-11 19:46:47,883 : Time 00h 42m 57s, already train 547407 steps, episode reward 6.0 in 439 steps
-2020-03-11 19:48:02,047 : Time 00h 44m 11s, already train 573910 steps, episode reward 5.0 in 385 steps
-2020-03-11 19:49:17,745 : Time 00h 45m 26s, already train 601243 steps, episode reward 5.0 in 420 steps
-2020-03-11 19:50:30,487 : Time 00h 46m 39s, already train 627792 steps, episode reward 7.0 in 473 steps
-2020-03-11 19:51:47,586 : Time 00h 47m 56s, already train 655457 steps, episode reward 6.0 in 418 steps
-2020-03-11 19:52:56,995 : Time 00h 49m 06s, already train 680780 steps, episode reward 4.0 in 354 steps
-2020-03-11 19:54:18,060 : Time 00h 50m 27s, already train 711042 steps, episode reward 8.0 in 563 steps
-2020-03-11 19:55:55,644 : Time 00h 52m 04s, already train 747624 steps, episode reward 18.0 in 888 steps
-2020-03-11 19:57:29,373 : Time 00h 53m 38s, already train 782853 steps, episode reward 16.0 in 835 steps
-2020-03-11 19:59:01,723 : Time 00h 55m 10s, already train 817556 steps, episode reward 14.0 in 854 steps
-2020-03-11 20:00:28,771 : Time 00h 56m 37s, already train 850356 steps, episode reward 12.0 in 737 steps
-2020-03-11 20:02:12,292 : Time 00h 58m 21s, already train 889146 steps, episode reward 22.0 in 1091 steps
-2020-03-11 20:03:46,769 : Time 00h 59m 55s, already train 924695 steps, episode reward 15.0 in 918 steps
-2020-03-11 20:05:02,856 : Time 01h 01m 12s, already train 953450 steps, episode reward 7.0 in 497 steps
-2020-03-11 20:06:56,172 : Time 01h 03m 05s, already train 996208 steps, episode reward 50.0 in 1553 steps
-2020-03-11 20:08:32,913 : Time 01h 04m 42s, already train 1032835 steps, episode reward 18.0 in 1021 steps
-2020-03-11 20:10:12,868 : Time 01h 06m 22s, already train 1070335 steps, episode reward 24.0 in 1193 steps
-2020-03-11 20:11:43,244 : Time 01h 07m 52s, already train 1104497 steps, episode reward 14.0 in 839 steps
-2020-03-11 20:13:44,983 : Time 01h 09m 54s, already train 1150579 steps, episode reward 58.0 in 1648 steps
-2020-03-11 20:15:32,772 : Time 01h 11m 41s, already train 1191179 steps, episode reward 40.0 in 1421 steps
-2020-03-11 20:17:03,377 : Time 01h 13m 12s, already train 1224743 steps, episode reward 50.0 in 1630 steps
-2020-03-11 20:19:25,411 : Deadlock -> Done 1 lives remained with action 1
-2020-03-11 20:19:25,411 : Time 01h 15m 34s, already train 1277748 steps, episode reward 254.0 in 2464 steps
-2020-03-11 20:21:19,014 : Time 01h 17m 28s, already train 1320063 steps, episode reward 44.0 in 1598 steps
-2020-03-11 20:23:24,637 : Deadlock -> Done 1 lives remained with action 2
-2020-03-11 20:23:24,638 : Time 01h 19m 33s, already train 1366857 steps, episode reward 68.0 in 1955 steps
-2020-03-11 20:25:34,536 : Time 01h 21m 43s, already train 1415497 steps, episode reward 83.0 in 1852 steps
-2020-03-11 20:27:16,611 : Time 01h 23m 25s, already train 1453747 steps, episode reward 30.0 in 1303 steps
-2020-03-11 20:29:12,612 : Time 01h 25m 21s, already train 1497232 steps, episode reward 63.0 in 1627 steps
-2020-03-11 20:30:55,982 : Time 01h 27m 05s, already train 1536184 steps, episode reward 54.0 in 1546 steps
-2020-03-11 20:33:04,535 : Time 01h 29m 13s, already train 1584545 steps, episode reward 145.0 in 2257 steps
-2020-03-11 20:34:18,516 : Deadlock -> Done 4 lives remained with action 0
-2020-03-11 20:34:18,516 : Time 01h 30m 27s, already train 1612276 steps, episode reward 6.0 in 364 steps
-2020-03-11 20:36:26,602 : Time 01h 32m 35s, already train 1660521 steps, episode reward 125.0 in 2222 steps
-2020-03-11 20:38:41,888 : Time 01h 34m 51s, already train 1711961 steps, episode reward 93.0 in 2244 steps
-2020-03-11 20:40:45,990 : Time 01h 36m 55s, already train 1759088 steps, episode reward 70.0 in 1960 steps
-2020-03-11 20:43:02,228 : Time 01h 39m 11s, already train 1810756 steps, episode reward 114.0 in 2330 steps
-2020-03-11 20:44:37,348 : Time 01h 40m 46s, already train 1846855 steps, episode reward 29.0 in 1021 steps
-2020-03-11 20:46:54,129 : Time 01h 43m 03s, already train 1899020 steps, episode reward 69.0 in 1921 steps
-2020-03-11 20:48:46,596 : Time 01h 44m 55s, already train 1941319 steps, episode reward 84.0 in 2355 steps
-2020-03-11 20:50:56,245 : Time 01h 47m 05s, already train 1990427 steps, episode reward 84.0 in 1838 steps
-2020-03-11 20:52:59,259 : Time 01h 49m 08s, already train 2037212 steps, episode reward 94.0 in 2207 steps
-2020-03-11 20:54:55,459 : Deadlock -> Done 3 lives remained with action 3
-2020-03-11 20:54:55,460 : Time 01h 51m 04s, already train 2081500 steps, episode reward 273.0 in 1708 steps
-2020-03-11 20:56:48,848 : Time 01h 52m 58s, already train 2124788 steps, episode reward 45.0 in 1577 steps
-2020-03-11 20:58:58,003 : Time 01h 55m 07s, already train 2174115 steps, episode reward 84.0 in 2092 steps
-2020-03-11 21:00:56,936 : Time 01h 57m 06s, already train 2219381 steps, episode reward 54.0 in 1505 steps
-2020-03-11 21:03:12,666 : Time 01h 59m 21s, already train 2271116 steps, episode reward 68.0 in 2108 steps
-2020-03-11 21:05:04,286 : Deadlock -> Done 1 lives remained with action 0
-2020-03-11 21:05:04,287 : Time 02h 01m 13s, already train 2313662 steps, episode reward 59.0 in 1664 steps
-2020-03-11 21:07:22,923 : Time 02h 03m 32s, already train 2366505 steps, episode reward 94.0 in 2102 steps
-2020-03-11 21:09:30,699 : Time 02h 05m 39s, already train 2415116 steps, episode reward 70.0 in 1889 steps
-2020-03-11 21:11:49,607 : Time 02h 07m 58s, already train 2463095 steps, episode reward 65.0 in 1906 steps
-2020-03-11 21:14:40,271 : Deadlock -> Done 1 lives remained with action 0
-2020-03-11 21:14:40,271 : Time 02h 10m 49s, already train 2504364 steps, episode reward 157.0 in 2596 steps
-2020-03-11 21:16:58,710 : Time 02h 13m 07s, already train 2541940 steps, episode reward 110.0 in 2200 steps
-2020-03-11 21:18:55,880 : Time 02h 15m 05s, already train 2573954 steps, episode reward 62.0 in 1536 steps
-2020-03-11 21:21:18,511 : Time 02h 17m 27s, already train 2613103 steps, episode reward 156.0 in 2166 steps
-2020-03-11 21:23:25,026 : Time 02h 19m 34s, already train 2647770 steps, episode reward 66.0 in 1845 steps
-2020-03-11 21:25:24,759 : Time 02h 21m 33s, already train 2680455 steps, episode reward 77.0 in 1629 steps
-2020-03-11 21:27:24,881 : Time 02h 23m 34s, already train 2713258 steps, episode reward 76.0 in 1709 steps
-2020-03-11 21:29:16,818 : Time 02h 25m 25s, already train 2744115 steps, episode reward 69.0 in 1537 steps
-2020-03-11 21:31:25,604 : Time 02h 27m 34s, already train 2779857 steps, episode reward 121.0 in 1920 steps
-2020-03-11 21:33:40,950 : Time 02h 29m 50s, already train 2817788 steps, episode reward 101.0 in 1842 steps
-2020-03-11 21:35:48,294 : Time 02h 31m 57s, already train 2853705 steps, episode reward 77.0 in 1818 steps
-2020-03-11 21:37:45,477 : Time 02h 33m 54s, already train 2886418 steps, episode reward 64.0 in 1784 steps
-2020-03-11 21:39:46,288 : Time 02h 35m 55s, already train 2920708 steps, episode reward 78.0 in 1911 steps
-2020-03-11 21:41:45,818 : Time 02h 37m 54s, already train 2954325 steps, episode reward 57.0 in 1629 steps
-2020-03-11 21:44:09,165 : Time 02h 40m 18s, already train 2994486 steps, episode reward 95.0 in 2097 steps
-2020-03-11 21:46:27,120 : Time 02h 42m 36s, already train 3033240 steps, episode reward 120.0 in 2156 steps
-2020-03-11 21:48:20,481 : Time 02h 44m 29s, already train 3065318 steps, episode reward 89.0 in 1646 steps
-2020-03-11 21:50:27,314 : Time 02h 46m 36s, already train 3101408 steps, episode reward 76.0 in 1914 steps
-2020-03-11 21:52:53,916 : Time 02h 49m 03s, already train 3143668 steps, episode reward 91.0 in 2139 steps
-2020-03-11 21:55:12,587 : Time 02h 51m 21s, already train 3183735 steps, episode reward 103.0 in 1922 steps
-2020-03-11 21:57:38,938 : Time 02h 53m 48s, already train 3226032 steps, episode reward 126.0 in 2278 steps
-2020-03-11 21:59:57,390 : Deadlock -> Done 2 lives remained with action 0
-2020-03-11 21:59:57,391 : Time 02h 56m 06s, already train 3266427 steps, episode reward 90.0 in 1896 steps
-2020-03-11 22:02:21,108 : Time 02h 58m 30s, already train 3308008 steps, episode reward 135.0 in 2300 steps
-2020-03-11 22:04:48,466 : Time 03h 00m 57s, already train 3351737 steps, episode reward 67.0 in 1982 steps
-2020-03-11 22:07:10,440 : Time 03h 03m 19s, already train 3394131 steps, episode reward 118.0 in 2228 steps
-2020-03-11 22:10:04,950 : Time 03h 06m 14s, already train 3446110 steps, episode reward 110.0 in 2464 steps
-2020-03-11 22:12:45,975 : Time 03h 08m 55s, already train 3494979 steps, episode reward 88.0 in 2067 steps
-2020-03-11 22:15:06,696 : Time 03h 11m 15s, already train 3536176 steps, episode reward 104.0 in 2057 steps
-2020-03-11 22:16:59,491 : Time 03h 13m 08s, already train 3569677 steps, episode reward 58.0 in 1368 steps
-2020-03-11 22:19:27,014 : Time 03h 15m 36s, already train 3613331 steps, episode reward 85.0 in 2139 steps
-2020-03-11 22:22:18,400 : Time 03h 18m 27s, already train 3664524 steps, episode reward 98.0 in 2416 steps
-2020-03-11 22:24:41,276 : Time 03h 20m 50s, already train 3707110 steps, episode reward 158.0 in 2160 steps
-2020-03-11 22:27:08,367 : Time 03h 23m 17s, already train 3751353 steps, episode reward 67.0 in 1866 steps
-2020-03-11 22:29:44,079 : Time 03h 25m 53s, already train 3798599 steps, episode reward 72.0 in 1943 steps
-2020-03-11 22:32:25,266 : Time 03h 28m 34s, already train 3847453 steps, episode reward 136.0 in 1951 steps
-2020-03-11 22:34:30,104 : Deadlock -> Done 1 lives remained with action 3
-2020-03-11 22:34:30,116 : Time 03h 30m 39s, already train 3885668 steps, episode reward 143.0 in 1453 steps
-2020-03-11 22:37:18,512 : Deadlock -> Done 1 lives remained with action 3
-2020-03-11 22:37:18,548 : Time 03h 33m 27s, already train 3937366 steps, episode reward 175.0 in 2287 steps
-2020-03-11 22:39:58,062 : Time 03h 36m 07s, already train 3985956 steps, episode reward 87.0 in 2184 steps
-2020-03-11 22:43:05,935 : Time 03h 39m 15s, already train 4044101 steps, episode reward 237.0 in 2587 steps
-2020-03-11 22:45:15,880 : Deadlock -> Done 4 lives remained with action 3
-2020-03-11 22:45:15,880 : Time 03h 41m 25s, already train 4083208 steps, episode reward 169.0 in 1367 steps
-2020-03-11 22:47:46,950 : Time 03h 43m 56s, already train 4129789 steps, episode reward 140.0 in 1975 steps
-2020-03-11 22:50:19,414 : Time 03h 46m 28s, already train 4176601 steps, episode reward 120.0 in 2279 steps
-2020-03-11 22:53:13,899 : Time 03h 49m 23s, already train 4230086 steps, episode reward 335.0 in 2652 steps
-2020-03-11 22:55:26,585 : Time 03h 51m 35s, already train 4270689 steps, episode reward 76.0 in 1846 steps
-2020-03-11 22:58:09,778 : Time 03h 54m 18s, already train 4321075 steps, episode reward 89.0 in 2207 steps
-2020-03-11 23:00:48,455 : Time 03h 56m 57s, already train 4370243 steps, episode reward 79.0 in 2098 steps
-2020-03-11 23:02:07,918 : Deadlock -> Done 4 lives remained with action 0
-2020-03-11 23:02:07,919 : Time 03h 58m 17s, already train 4394834 steps, episode reward 9.0 in 399 steps
-2020-03-11 23:04:54,629 : Time 04h 01m 03s, already train 4446291 steps, episode reward 213.0 in 2351 steps
-2020-03-11 23:07:01,332 : Time 04h 03m 10s, already train 4485349 steps, episode reward 240.0 in 1777 steps
-2020-03-11 23:10:23,675 : Time 04h 06m 32s, already train 4548237 steps, episode reward 283.0 in 2774 steps
-2020-03-11 23:12:53,862 : Time 04h 09m 03s, already train 4594331 steps, episode reward 77.0 in 1853 steps
-2020-03-11 23:15:27,290 : Time 04h 11m 36s, already train 4640912 steps, episode reward 96.0 in 1945 steps
-2020-03-11 23:17:29,581 : Time 04h 13m 38s, already train 4677860 steps, episode reward 85.0 in 1434 steps
-2020-03-11 23:20:05,708 : Deadlock -> Done 1 lives remained with action 2
-2020-03-11 23:20:05,708 : Time 04h 16m 14s, already train 4722364 steps, episode reward 325.0 in 1866 steps
-2020-03-11 23:22:30,822 : Time 04h 18m 40s, already train 4763941 steps, episode reward 77.0 in 1878 steps
-2020-03-11 23:25:42,590 : Time 04h 21m 51s, already train 4819489 steps, episode reward 200.0 in 2435 steps
-2020-03-11 23:28:50,671 : Time 04h 24m 59s, already train 4873934 steps, episode reward 154.0 in 2202 steps
-2020-03-11 23:31:15,844 : Time 04h 27m 25s, already train 4918006 steps, episode reward 190.0 in 1746 steps
-2020-03-11 23:33:28,008 : Time 04h 29m 37s, already train 4958617 steps, episode reward 174.0 in 2044 steps
-2020-03-11 23:35:48,602 : Time 04h 31m 57s, already train 5001893 steps, episode reward 178.0 in 1668 steps
-2020-03-11 23:36:56,847 : Deadlock -> Done 5 lives remained with action 0
-2020-03-11 23:36:56,847 : Time 04h 33m 06s, already train 5023063 steps, episode reward 0.0 in 101 steps
-2020-03-11 23:39:38,887 : Time 04h 35m 48s, already train 5072856 steps, episode reward 117.0 in 2221 steps
-2020-03-11 23:41:59,510 : Time 04h 38m 08s, already train 5115961 steps, episode reward 88.0 in 1830 steps
-2020-03-11 23:44:35,733 : Time 04h 40m 44s, already train 5164109 steps, episode reward 235.0 in 2056 steps
-2020-03-11 23:46:46,512 : Time 04h 42m 55s, already train 5204815 steps, episode reward 95.0 in 1764 steps
-2020-03-11 23:49:30,658 : Time 04h 45m 39s, already train 5255577 steps, episode reward 101.0 in 1878 steps
-2020-03-11 23:51:29,177 : Time 04h 47m 38s, already train 5291737 steps, episode reward 119.0 in 1797 steps
-2020-03-11 23:53:32,271 : Time 04h 49m 41s, already train 5329296 steps, episode reward 162.0 in 2302 steps
-2020-03-11 23:55:30,147 : Time 04h 51m 39s, already train 5364579 steps, episode reward 110.0 in 1985 steps
-2020-03-11 23:57:27,470 : Time 04h 53m 36s, already train 5400248 steps, episode reward 58.0 in 1538 steps
-2020-03-11 23:59:31,926 : Time 04h 55m 41s, already train 5438221 steps, episode reward 104.0 in 2084 steps
-2020-03-12 00:01:28,133 : Time 04h 57m 37s, already train 5473688 steps, episode reward 69.0 in 1542 steps
-2020-03-12 00:03:05,429 : Time 04h 59m 14s, already train 5503360 steps, episode reward 282.0 in 1824 steps
-2020-03-12 00:08:28,053 : Time 05h 04m 37s, already train 5600574 steps, episode reward 259.0 in 10000 steps
-2020-03-12 00:10:26,040 : Time 05h 06m 35s, already train 5636027 steps, episode reward 127.0 in 2146 steps
-2020-03-12 00:12:06,826 : Time 05h 08m 16s, already train 5666267 steps, episode reward 192.0 in 1585 steps
-2020-03-12 00:13:37,595 : Deadlock -> Done 4 lives remained with action 3
-2020-03-12 00:13:37,596 : Time 05h 09m 46s, already train 5693680 steps, episode reward 109.0 in 1008 steps
-2020-03-12 00:18:58,067 : Time 05h 15m 07s, already train 5790390 steps, episode reward 331.0 in 10000 steps
-2020-03-12 00:20:57,682 : Time 05h 17m 06s, already train 5827133 steps, episode reward 109.0 in 2061 steps
-2020-03-12 00:22:47,597 : Deadlock -> Done 1 lives remained with action 3
-2020-03-12 00:22:47,597 : Time 05h 18m 56s, already train 5860413 steps, episode reward 205.0 in 2233 steps
-2020-03-12 00:24:50,060 : Time 05h 20m 59s, already train 5897751 steps, episode reward 162.0 in 2317 steps
-2020-03-12 00:26:29,968 : Time 05h 22m 39s, already train 5928867 steps, episode reward 229.0 in 2000 steps
-2020-03-12 00:28:23,397 : Time 05h 24m 32s, already train 5963438 steps, episode reward 160.0 in 2304 steps
-2020-03-12 00:30:21,136 : Time 05h 26m 30s, already train 6000044 steps, episode reward 210.0 in 1872 steps
-2020-03-12 00:32:14,318 : Time 05h 28m 23s, already train 6034834 steps, episode reward 264.0 in 1878 steps
-2020-03-12 00:37:24,634 : Time 05h 33m 33s, already train 6129954 steps, episode reward 231.0 in 10000 steps
-2020-03-12 00:39:32,538 : Time 05h 35m 41s, already train 6169783 steps, episode reward 183.0 in 2343 steps
-2020-03-12 00:41:45,783 : Time 05h 37m 54s, already train 6211139 steps, episode reward 293.0 in 2324 steps
-2020-03-12 00:43:43,733 : Time 05h 39m 52s, already train 6247087 steps, episode reward 117.0 in 2177 steps
-2020-03-12 00:45:35,714 : Time 05h 41m 44s, already train 6282292 steps, episode reward 280.0 in 2017 steps
-2020-03-12 00:47:13,296 : Time 05h 43m 22s, already train 6312458 steps, episode reward 105.0 in 1789 steps
-2020-03-12 00:51:57,929 : Time 05h 48m 07s, already train 6400955 steps, episode reward 257.0 in 10000 steps
-2020-03-12 00:57:12,303 : Time 05h 53m 21s, already train 6498522 steps, episode reward 233.0 in 10000 steps
-2020-03-12 00:59:12,995 : Time 05h 55m 22s, already train 6536284 steps, episode reward 124.0 in 1888 steps
-2020-03-12 01:01:09,129 : Time 05h 57m 18s, already train 6572401 steps, episode reward 218.0 in 1868 steps
-2020-03-12 01:03:17,525 : Time 05h 59m 26s, already train 6612607 steps, episode reward 256.0 in 2492 steps
-2020-03-12 01:05:13,449 : Deadlock -> Done 1 lives remained with action 3
-2020-03-12 01:05:13,450 : Time 06h 01m 22s, already train 6649154 steps, episode reward 232.0 in 2047 steps
-2020-03-12 01:07:19,452 : Time 06h 03m 28s, already train 6688995 steps, episode reward 234.0 in 2369 steps
-2020-03-12 01:09:19,890 : Time 06h 05m 29s, already train 6727232 steps, episode reward 311.0 in 2468 steps
-2020-03-12 01:11:08,719 : Time 06h 07m 17s, already train 6761966 steps, episode reward 81.0 in 1920 steps
-2020-03-12 01:12:59,538 : Time 06h 09m 08s, already train 6796529 steps, episode reward 359.0 in 2059 steps
-2020-03-12 01:15:02,052 : Time 06h 11m 11s, already train 6834918 steps, episode reward 123.0 in 2318 steps
-2020-03-12 01:17:12,194 : Time 06h 13m 21s, already train 6874878 steps, episode reward 116.0 in 2383 steps
-2020-03-12 01:19:00,468 : Time 06h 15m 09s, already train 6909115 steps, episode reward 133.0 in 1966 steps
-2020-03-12 01:21:13,694 : Time 06h 17m 22s, already train 6951027 steps, episode reward 344.0 in 2659 steps
-2020-03-12 01:22:59,974 : Time 06h 19m 09s, already train 6984137 steps, episode reward 338.0 in 2128 steps
-2020-03-12 01:28:09,133 : Time 06h 24m 18s, already train 7081874 steps, episode reward 250.0 in 10000 steps
-2020-03-12 01:30:20,947 : Deadlock -> Done 1 lives remained with action 2
-2020-03-12 01:30:20,948 : Time 06h 26m 30s, already train 7124190 steps, episode reward 355.0 in 2983 steps
-2020-03-12 01:32:01,132 : Deadlock -> Done 1 lives remained with action 0
-2020-03-12 01:32:01,132 : Time 06h 28m 10s, already train 7155936 steps, episode reward 252.0 in 1801 steps
-2020-03-12 01:34:00,715 : Time 06h 30m 09s, already train 7194099 steps, episode reward 362.0 in 2067 steps
-2020-03-12 01:35:49,893 : Time 06h 31m 59s, already train 7228281 steps, episode reward 198.0 in 2472 steps
-2020-03-12 01:37:39,615 : Time 06h 33m 48s, already train 7262760 steps, episode reward 272.0 in 2050 steps
-2020-03-12 01:39:36,886 : Time 06h 35m 46s, already train 7300430 steps, episode reward 230.0 in 2519 steps
-2020-03-12 01:45:03,483 : Time 06h 41m 12s, already train 7404833 steps, episode reward 321.0 in 10000 steps
-2020-03-12 01:46:48,071 : Deadlock -> Done 3 lives remained with action 3
-2020-03-12 01:46:48,071 : Time 06h 42m 57s, already train 7438313 steps, episode reward 155.0 in 1891 steps
-2020-03-12 01:48:46,939 : Deadlock -> Done 1 lives remained with action 2
-2020-03-12 01:48:46,939 : Time 06h 44m 56s, already train 7476114 steps, episode reward 315.0 in 2295 steps
-2020-03-12 01:53:49,864 : Time 06h 49m 59s, already train 7570078 steps, episode reward 271.0 in 10000 steps
-2020-03-12 01:55:42,084 : Time 06h 51m 51s, already train 7605625 steps, episode reward 101.0 in 1808 steps
-2020-03-12 01:57:17,396 : Time 06h 53m 26s, already train 7635707 steps, episode reward 104.0 in 1993 steps
-2020-03-12 01:59:27,484 : Deadlock -> Done 1 lives remained with action 2
-2020-03-12 01:59:27,485 : Time 06h 55m 36s, already train 7676637 steps, episode reward 349.0 in 2682 steps
-2020-03-12 02:01:08,233 : Deadlock -> Done 3 lives remained with action 0
-2020-03-12 02:01:08,234 : Time 06h 57m 17s, already train 7708653 steps, episode reward 195.0 in 1504 steps
-2020-03-12 02:03:01,973 : Time 06h 59m 11s, already train 7744377 steps, episode reward 266.0 in 2077 steps
-2020-03-12 02:04:44,233 : Time 07h 00m 53s, already train 7776601 steps, episode reward 80.0 in 1829 steps
-2020-03-12 02:06:38,376 : Time 07h 02m 47s, already train 7812512 steps, episode reward 226.0 in 2018 steps
-2020-03-12 02:08:37,065 : Time 07h 04m 46s, already train 7849266 steps, episode reward 197.0 in 2318 steps
-2020-03-12 02:10:17,782 : Time 07h 06m 26s, already train 7880590 steps, episode reward 290.0 in 2097 steps
-2020-03-12 02:12:11,859 : Time 07h 08m 21s, already train 7915767 steps, episode reward 286.0 in 2182 steps
-2020-03-12 02:14:00,920 : Time 07h 10m 10s, already train 7949808 steps, episode reward 99.0 in 1887 steps
-2020-03-12 02:15:56,677 : Time 07h 12m 05s, already train 7985345 steps, episode reward 232.0 in 2341 steps
-2020-03-12 02:17:57,143 : Time 07h 14m 06s, already train 8022019 steps, episode reward 330.0 in 2097 steps
-2020-03-12 02:19:50,818 : Time 07h 15m 59s, already train 8056770 steps, episode reward 123.0 in 2230 steps
-2020-03-12 02:21:42,620 : Time 07h 17m 51s, already train 8090741 steps, episode reward 75.0 in 1898 steps
-2020-03-12 02:23:48,065 : Time 07h 19m 57s, already train 8128565 steps, episode reward 324.0 in 2446 steps
-2020-03-12 02:25:46,879 : Time 07h 21m 56s, already train 8165136 steps, episode reward 347.0 in 2306 steps
-2020-03-12 02:27:28,420 : Time 07h 23m 37s, already train 8196347 steps, episode reward 301.0 in 1650 steps
-2020-03-12 02:29:33,007 : Time 07h 25m 42s, already train 8235002 steps, episode reward 227.0 in 2398 steps
-2020-03-12 02:31:22,882 : Time 07h 27m 32s, already train 8269058 steps, episode reward 81.0 in 1713 steps
-2020-03-12 02:33:26,559 : Time 07h 29m 35s, already train 8307789 steps, episode reward 159.0 in 2377 steps
-2020-03-12 02:35:28,366 : Time 07h 31m 37s, already train 8345650 steps, episode reward 333.0 in 2265 steps
-2020-03-12 02:40:42,968 : Time 07h 36m 52s, already train 8444010 steps, episode reward 226.0 in 10000 steps
-2020-03-12 02:42:07,813 : Time 07h 38m 16s, already train 8470336 steps, episode reward 47.0 in 1224 steps
-2020-03-12 02:44:01,131 : Time 07h 40m 10s, already train 8506475 steps, episode reward 296.0 in 2269 steps
-2020-03-12 02:45:55,473 : Time 07h 42m 04s, already train 8542640 steps, episode reward 328.0 in 2119 steps
-2020-03-12 02:47:51,425 : Time 07h 44m 00s, already train 8578789 steps, episode reward 359.0 in 2431 steps
-2020-03-12 02:50:09,066 : Time 07h 46m 18s, already train 8622051 steps, episode reward 332.0 in 2727 steps
-2020-03-12 02:55:18,024 : Time 07h 51m 27s, already train 8717129 steps, episode reward 302.0 in 10000 steps
-2020-03-12 02:57:05,848 : Time 07h 53m 15s, already train 8751162 steps, episode reward 145.0 in 1610 steps
-2020-03-12 02:59:13,340 : Time 07h 55m 22s, already train 8791625 steps, episode reward 360.0 in 2762 steps
-2020-03-12 03:01:16,489 : Time 07h 57m 25s, already train 8830578 steps, episode reward 122.0 in 2181 steps
-2020-03-12 03:03:23,460 : Time 07h 59m 32s, already train 8870836 steps, episode reward 263.0 in 2371 steps
-2020-03-12 03:05:23,184 : Time 08h 01m 32s, already train 8908669 steps, episode reward 105.0 in 2154 steps
-2020-03-12 03:07:30,308 : Time 08h 03m 39s, already train 8948578 steps, episode reward 335.0 in 2583 steps
-2020-03-12 03:09:36,991 : Time 08h 05m 46s, already train 8988367 steps, episode reward 286.0 in 2182 steps
-2020-03-12 03:11:32,177 : Time 08h 07m 41s, already train 9024789 steps, episode reward 334.0 in 2355 steps
-2020-03-12 03:13:19,329 : Time 08h 09m 28s, already train 9058807 steps, episode reward 182.0 in 1888 steps
-2020-03-12 03:14:55,955 : Time 08h 11m 05s, already train 9089534 steps, episode reward 67.0 in 1449 steps
-2020-03-12 03:16:36,567 : Time 08h 12m 45s, already train 9121140 steps, episode reward 78.0 in 1734 steps
-2020-03-12 03:18:38,376 : Time 08h 14m 47s, already train 9160241 steps, episode reward 302.0 in 2095 steps
-2020-03-12 03:20:36,649 : Time 08h 16m 45s, already train 9197619 steps, episode reward 354.0 in 2553 steps
-2020-03-12 03:22:38,464 : Time 08h 18m 47s, already train 9236367 steps, episode reward 347.0 in 2227 steps
-2020-03-12 03:24:53,550 : Time 08h 21m 02s, already train 9279267 steps, episode reward 281.0 in 2609 steps
-2020-03-12 03:26:43,674 : Time 08h 22m 52s, already train 9313964 steps, episode reward 116.0 in 1851 steps
-2020-03-12 03:28:42,476 : Time 08h 24m 51s, already train 9351720 steps, episode reward 131.0 in 2387 steps
-2020-03-12 03:30:55,642 : Time 08h 27m 04s, already train 9393068 steps, episode reward 374.0 in 2663 steps
-2020-03-12 03:32:32,151 : Time 08h 28m 41s, already train 9423640 steps, episode reward 200.0 in 1613 steps
-2020-03-12 03:33:57,501 : Deadlock -> Done 4 lives remained with action 1
-2020-03-12 03:33:57,501 : Time 08h 30m 06s, already train 9450891 steps, episode reward 174.0 in 1343 steps
-2020-03-12 03:35:36,878 : Time 08h 31m 46s, already train 9481878 steps, episode reward 104.0 in 1865 steps
-2020-03-12 03:37:53,330 : Time 08h 34m 02s, already train 9525041 steps, episode reward 384.0 in 2650 steps
-2020-03-12 03:39:50,927 : Time 08h 36m 00s, already train 9562051 steps, episode reward 94.0 in 2217 steps
-2020-03-12 03:41:44,677 : Time 08h 37m 53s, already train 9598069 steps, episode reward 103.0 in 2179 steps
-2020-03-12 03:45:04,920 : Time 08h 41m 14s, already train 9660944 steps, episode reward 329.0 in 4970 steps
-2020-03-12 03:47:12,426 : Time 08h 43m 21s, already train 9700684 steps, episode reward 299.0 in 2363 steps
-2020-03-12 03:49:03,375 : Time 08h 45m 12s, already train 9734947 steps, episode reward 325.0 in 2147 steps
-2020-03-12 03:50:56,417 : Time 08h 47m 05s, already train 9770232 steps, episode reward 213.0 in 2513 steps
-2020-03-12 03:53:06,051 : Time 08h 49m 15s, already train 9811036 steps, episode reward 318.0 in 2321 steps
-2020-03-12 03:55:16,024 : Time 08h 51m 25s, already train 9851683 steps, episode reward 305.0 in 2412 steps
-2020-03-12 03:57:12,063 : Time 08h 53m 21s, already train 9889224 steps, episode reward 303.0 in 2280 steps
-2020-03-12 03:59:06,753 : Time 08h 55m 15s, already train 9925903 steps, episode reward 293.0 in 2147 steps
-2020-03-12 04:01:15,681 : Deadlock -> Done 4 lives remained with action 1
-2020-03-12 04:01:15,682 : Time 08h 57m 24s, already train 9967201 steps, episode reward 293.0 in 2307 steps
-2020-03-12 04:02:56,268 : Deadlock -> Done 3 lives remained with action 1
-2020-03-12 04:02:56,269 : Time 08h 59m 05s, already train 9999460 steps, episode reward 204.0 in 1538 steps
-2020-03-12 04:04:44,082 : Time 09h 00m 53s, already train 10033915 steps, episode reward 224.0 in 1860 steps
-2020-03-12 04:06:56,455 : Time 09h 03m 05s, already train 10076177 steps, episode reward 182.0 in 2365 steps
-2020-03-12 04:08:46,937 : Time 09h 04m 56s, already train 10111749 steps, episode reward 315.0 in 2226 steps
-2020-03-12 04:10:29,637 : Time 09h 06m 38s, already train 10144341 steps, episode reward 302.0 in 2333 steps
-2020-03-12 04:12:14,365 : Time 09h 08m 23s, already train 10177505 steps, episode reward 163.0 in 2008 steps
-2020-03-12 04:17:38,065 : Time 09h 13m 47s, already train 10280371 steps, episode reward 242.0 in 10000 steps
-2020-03-12 04:19:37,608 : Time 09h 15m 46s, already train 10318164 steps, episode reward 395.0 in 2676 steps
-2020-03-12 04:21:53,735 : Time 09h 18m 02s, already train 10361653 steps, episode reward 295.0 in 2590 steps
-2020-03-12 04:24:01,187 : Time 09h 20m 10s, already train 10402073 steps, episode reward 114.0 in 2217 steps
-2020-03-12 04:26:10,220 : Time 09h 22m 19s, already train 10443028 steps, episode reward 265.0 in 2555 steps
-2020-03-12 04:28:10,466 : Time 09h 24m 19s, already train 10481201 steps, episode reward 103.0 in 2134 steps
-2020-03-12 04:30:14,976 : Time 09h 26m 24s, already train 10520671 steps, episode reward 250.0 in 2287 steps
-2020-03-12 04:32:30,496 : Time 09h 28m 39s, already train 10564555 steps, episode reward 318.0 in 2676 steps
-2020-03-12 04:34:31,346 : Time 09h 30m 40s, already train 10603163 steps, episode reward 341.0 in 2456 steps
-2020-03-12 04:36:35,968 : Time 09h 32m 45s, already train 10643162 steps, episode reward 303.0 in 2321 steps
-2020-03-12 04:38:33,962 : Time 09h 34m 43s, already train 10680856 steps, episode reward 161.0 in 2126 steps
-2020-03-12 04:40:43,449 : Time 09h 36m 52s, already train 10722583 steps, episode reward 358.0 in 2674 steps
-2020-03-12 04:42:27,724 : Time 09h 38m 36s, already train 10755996 steps, episode reward 350.0 in 2026 steps
-2020-03-12 04:44:02,566 : Time 09h 40m 11s, already train 10786766 steps, episode reward 100.0 in 1488 steps
-2020-03-12 04:46:05,612 : Time 09h 42m 14s, already train 10825857 steps, episode reward 236.0 in 2492 steps
-2020-03-12 04:50:52,311 : Time 09h 47m 01s, already train 10916479 steps, episode reward 386.0 in 10000 steps
-2020-03-12 04:52:59,057 : Time 09h 49m 08s, already train 10956699 steps, episode reward 214.0 in 2533 steps
-2020-03-12 04:55:02,659 : Time 09h 51m 11s, already train 10996327 steps, episode reward 290.0 in 2226 steps
-2020-03-12 04:57:19,900 : Time 09h 53m 29s, already train 11040223 steps, episode reward 365.0 in 2840 steps
-2020-03-12 04:59:11,535 : Time 09h 55m 20s, already train 11075442 steps, episode reward 210.0 in 2173 steps
-2020-03-12 05:01:03,560 : Time 09h 57m 12s, already train 11111105 steps, episode reward 93.0 in 1806 steps
-2020-03-12 05:03:24,372 : Time 09h 59m 33s, already train 11156213 steps, episode reward 369.0 in 2984 steps
-2020-03-12 05:05:18,377 : Time 10h 01m 27s, already train 11192926 steps, episode reward 308.0 in 1771 steps
-2020-03-12 05:07:24,448 : Time 10h 03m 33s, already train 11233032 steps, episode reward 321.0 in 2597 steps
-2020-03-12 05:09:03,082 : Time 10h 05m 12s, already train 11264754 steps, episode reward 58.0 in 1507 steps
-2020-03-12 05:10:49,898 : Time 10h 06m 59s, already train 11299009 steps, episode reward 281.0 in 2046 steps
-2020-03-12 05:12:39,796 : Time 10h 08m 48s, already train 11334210 steps, episode reward 390.0 in 2382 steps
-2020-03-12 05:14:29,689 : Time 10h 10m 38s, already train 11369125 steps, episode reward 144.0 in 2202 steps
-2020-03-12 05:15:59,609 : Time 10h 12m 08s, already train 11397930 steps, episode reward 82.0 in 1523 steps
-2020-03-12 05:18:06,879 : Time 10h 14m 16s, already train 11437978 steps, episode reward 378.0 in 2612 steps
-2020-03-12 05:19:47,237 : Time 10h 15m 56s, already train 11469731 steps, episode reward 98.0 in 2056 steps
-2020-03-12 05:22:00,294 : Time 10h 18m 09s, already train 11512213 steps, episode reward 360.0 in 2650 steps
-2020-03-12 05:23:40,258 : Time 10h 19m 49s, already train 11544234 steps, episode reward 105.0 in 2019 steps
-2020-03-12 05:25:21,889 : Time 10h 21m 31s, already train 11576264 steps, episode reward 188.0 in 2075 steps
-2020-03-12 05:27:34,156 : Time 10h 23m 43s, already train 11618659 steps, episode reward 216.0 in 2302 steps
-2020-03-12 05:29:07,141 : Time 10h 25m 16s, already train 11648605 steps, episode reward 87.0 in 1460 steps
-2020-03-12 05:31:00,392 : Time 10h 27m 09s, already train 11685449 steps, episode reward 349.0 in 2747 steps
-2020-03-12 05:32:50,187 : Time 10h 28m 59s, already train 11720263 steps, episode reward 347.0 in 2533 steps
-2020-03-12 05:34:45,481 : Time 10h 30m 54s, already train 11757287 steps, episode reward 104.0 in 2296 steps
-2020-03-12 05:36:34,460 : Time 10h 32m 43s, already train 11792337 steps, episode reward 268.0 in 1980 steps
-2020-03-12 05:38:30,003 : Time 10h 34m 39s, already train 11829543 steps, episode reward 363.0 in 2378 steps
-2020-03-12 05:40:26,975 : Time 10h 36m 36s, already train 11866753 steps, episode reward 310.0 in 2146 steps
-2020-03-12 05:42:04,291 : Time 10h 38m 13s, already train 11897851 steps, episode reward 113.0 in 1884 steps
-2020-03-12 05:44:05,159 : Time 10h 40m 14s, already train 11937004 steps, episode reward 333.0 in 2314 steps
-2020-03-12 05:46:15,745 : Time 10h 42m 24s, already train 11979008 steps, episode reward 395.0 in 2553 steps
-2020-03-12 05:48:08,122 : Time 10h 44m 17s, already train 12015276 steps, episode reward 243.0 in 2048 steps
-2020-03-12 05:49:57,765 : Time 10h 46m 06s, already train 12050383 steps, episode reward 145.0 in 2120 steps
-2020-03-12 05:51:47,436 : Time 10h 47m 56s, already train 12085944 steps, episode reward 86.0 in 1878 steps
-2020-03-12 05:53:50,007 : Time 10h 49m 59s, already train 12125221 steps, episode reward 96.0 in 2160 steps
-2020-03-12 05:55:33,137 : Time 10h 51m 42s, already train 12157988 steps, episode reward 132.0 in 1857 steps
-2020-03-12 05:57:40,318 : Time 10h 53m 49s, already train 12198067 steps, episode reward 303.0 in 2633 steps
-2020-03-12 05:59:49,125 : Time 10h 55m 58s, already train 12238284 steps, episode reward 215.0 in 2397 steps
-2020-03-12 06:02:03,180 : Time 10h 58m 12s, already train 12281133 steps, episode reward 350.0 in 2433 steps
-2020-03-12 06:03:56,186 : Time 11h 00m 05s, already train 12316557 steps, episode reward 280.0 in 2096 steps
-2020-03-12 06:05:54,699 : Time 11h 02m 03s, already train 12352627 steps, episode reward 232.0 in 2382 steps
-2020-03-12 06:07:40,377 : Time 11h 03m 49s, already train 12385803 steps, episode reward 65.0 in 1677 steps
-2020-03-12 06:09:32,869 : Time 11h 05m 42s, already train 12421483 steps, episode reward 246.0 in 2524 steps
-2020-03-12 06:11:33,697 : Time 11h 07m 42s, already train 12460208 steps, episode reward 120.0 in 2028 steps
-2020-03-12 06:13:41,761 : Time 11h 09m 50s, already train 12501318 steps, episode reward 271.0 in 2499 steps
-2020-03-12 06:15:33,336 : Time 11h 11m 42s, already train 12537225 steps, episode reward 100.0 in 1774 steps
-2020-03-12 06:17:29,236 : Time 11h 13m 38s, already train 12574110 steps, episode reward 336.0 in 2303 steps
-2020-03-12 06:19:23,426 : Time 11h 15m 32s, already train 12610388 steps, episode reward 111.0 in 1956 steps
-2020-03-12 06:21:37,925 : Time 11h 17m 47s, already train 12653562 steps, episode reward 382.0 in 2832 steps
-2020-03-12 06:23:27,687 : Time 11h 19m 36s, already train 12688685 steps, episode reward 304.0 in 2236 steps
-2020-03-12 06:25:23,302 : Time 11h 21m 32s, already train 12725859 steps, episode reward 114.0 in 1936 steps
-2020-03-12 06:27:37,418 : Time 11h 23m 46s, already train 12768778 steps, episode reward 205.0 in 2666 steps
-2020-03-12 06:29:42,718 : Time 11h 25m 51s, already train 12808760 steps, episode reward 369.0 in 2439 steps
-2020-03-12 06:31:26,807 : Time 11h 27m 35s, already train 12842265 steps, episode reward 118.0 in 1770 steps
-2020-03-12 06:33:39,550 : Time 11h 29m 48s, already train 12884899 steps, episode reward 371.0 in 2396 steps
-2020-03-12 06:36:00,189 : Time 11h 32m 09s, already train 12929996 steps, episode reward 379.0 in 2748 steps
-2020-03-12 06:37:44,794 : Time 11h 33m 53s, already train 12963354 steps, episode reward 123.0 in 1811 steps
-2020-03-12 06:39:43,061 : Time 11h 35m 52s, already train 13000950 steps, episode reward 363.0 in 2405 steps
-2020-03-12 06:41:45,670 : Time 11h 37m 54s, already train 13039612 steps, episode reward 297.0 in 2335 steps
-2020-03-12 06:43:36,524 : Time 11h 39m 45s, already train 13074723 steps, episode reward 126.0 in 1997 steps
-2020-03-12 06:47:17,274 : Time 11h 43m 26s, already train 13144831 steps, episode reward 369.0 in 6751 steps
-2020-03-12 06:49:19,982 : Time 11h 45m 29s, already train 13183773 steps, episode reward 336.0 in 2333 steps
-2020-03-12 06:51:22,166 : Time 11h 47m 31s, already train 13223070 steps, episode reward 342.0 in 2214 steps
-2020-03-12 06:53:35,787 : Time 11h 49m 44s, already train 13265630 steps, episode reward 346.0 in 2375 steps
-2020-03-12 06:55:50,235 : Time 11h 51m 59s, already train 13308826 steps, episode reward 348.0 in 2564 steps
-2020-03-12 06:57:43,745 : Time 11h 53m 52s, already train 13345227 steps, episode reward 279.0 in 2143 steps
-2020-03-12 06:59:28,730 : Time 11h 55m 37s, already train 13378931 steps, episode reward 138.0 in 2037 steps
-2020-03-12 07:01:29,759 : Time 11h 57m 38s, already train 13418093 steps, episode reward 342.0 in 2535 steps
-2020-03-12 07:03:19,838 : Time 11h 59m 29s, already train 13453633 steps, episode reward 154.0 in 1971 steps
-2020-03-12 07:05:25,862 : Time 12h 01m 35s, already train 13494645 steps, episode reward 380.0 in 2371 steps
-2020-03-12 07:07:41,996 : Time 12h 03m 51s, already train 13537845 steps, episode reward 184.0 in 2585 steps
-2020-03-12 07:09:47,933 : Time 12h 05m 57s, already train 13577716 steps, episode reward 332.0 in 2550 steps
-2020-03-12 07:11:31,920 : Time 12h 07m 41s, already train 13610570 steps, episode reward 308.0 in 2226 steps
-2020-03-12 07:13:34,907 : Time 12h 09m 44s, already train 13649398 steps, episode reward 261.0 in 2175 steps
-2020-03-12 07:15:27,729 : Time 12h 11m 36s, already train 13685328 steps, episode reward 122.0 in 2051 steps
-2020-03-12 07:17:30,848 : Time 12h 13m 40s, already train 13724881 steps, episode reward 188.0 in 2324 steps
-2020-03-12 07:19:24,895 : Time 12h 15m 34s, already train 13761688 steps, episode reward 282.0 in 2087 steps
-2020-03-12 07:21:09,300 : Time 12h 17m 18s, already train 13795417 steps, episode reward 79.0 in 1490 steps
-2020-03-12 07:23:03,936 : Time 12h 19m 13s, already train 13832251 steps, episode reward 217.0 in 2106 steps
-2020-03-12 07:25:13,361 : Deadlock -> Done 2 lives remained with action 0
-2020-03-12 07:25:13,362 : Time 12h 21m 22s, already train 13873552 steps, episode reward 381.0 in 2567 steps
-2020-03-12 07:27:15,378 : Time 12h 23m 24s, already train 13912301 steps, episode reward 313.0 in 2698 steps
-2020-03-12 07:29:20,809 : Time 12h 25m 29s, already train 13952026 steps, episode reward 392.0 in 2958 steps
-2020-03-12 07:31:35,222 : Time 12h 27m 44s, already train 13994589 steps, episode reward 399.0 in 2522 steps
-2020-03-12 07:33:36,324 : Time 12h 29m 45s, already train 14033114 steps, episode reward 335.0 in 2698 steps
-2020-03-12 07:35:53,719 : Time 12h 32m 02s, already train 14076330 steps, episode reward 359.0 in 2547 steps
-2020-03-12 07:37:51,597 : Time 12h 34m 00s, already train 14113834 steps, episode reward 255.0 in 1860 steps
-2020-03-12 07:39:51,537 : Time 12h 36m 00s, already train 14152359 steps, episode reward 223.0 in 1937 steps
-2020-03-12 07:42:11,120 : Time 12h 38m 20s, already train 14197094 steps, episode reward 398.0 in 2823 steps
-2020-03-12 07:44:32,724 : Time 12h 40m 41s, already train 14242046 steps, episode reward 368.0 in 2726 steps
-2020-03-12 07:46:16,686 : Time 12h 42m 25s, already train 14275706 steps, episode reward 135.0 in 1958 steps
-2020-03-12 07:48:14,931 : Time 12h 44m 24s, already train 14313588 steps, episode reward 108.0 in 1929 steps
-2020-03-12 07:50:05,967 : Time 12h 46m 15s, already train 14349422 steps, episode reward 121.0 in 2049 steps
-2020-03-12 07:52:27,845 : Time 12h 48m 37s, already train 14394551 steps, episode reward 305.0 in 2504 steps
-2020-03-12 07:54:36,237 : Time 12h 50m 45s, already train 14436328 steps, episode reward 272.0 in 2544 steps
-2020-03-12 07:56:32,386 : Time 12h 52m 41s, already train 14473469 steps, episode reward 372.0 in 2706 steps
-2020-03-12 07:58:17,984 : Time 12h 54m 27s, already train 14507671 steps, episode reward 208.0 in 2214 steps
-2020-03-12 08:00:18,560 : Time 12h 56m 27s, already train 14547028 steps, episode reward 217.0 in 2280 steps
-2020-03-12 08:02:22,236 : Time 12h 58m 31s, already train 14586952 steps, episode reward 131.0 in 2262 steps
-2020-03-12 08:04:22,334 : Time 13h 00m 31s, already train 14626155 steps, episode reward 360.0 in 2501 steps
-2020-03-12 08:06:10,293 : Time 13h 02m 19s, already train 14660872 steps, episode reward 102.0 in 1799 steps
-2020-03-12 08:08:06,431 : Time 13h 04m 15s, already train 14698269 steps, episode reward 332.0 in 2125 steps
-2020-03-12 08:10:06,911 : Time 13h 06m 16s, already train 14736896 steps, episode reward 206.0 in 2152 steps
-2020-03-12 08:12:20,174 : Time 13h 08m 29s, already train 14779729 steps, episode reward 362.0 in 2498 steps
-2020-03-12 08:14:23,851 : Time 13h 10m 33s, already train 14819450 steps, episode reward 200.0 in 2112 steps
-2020-03-12 08:16:39,499 : Time 13h 12m 48s, already train 14863036 steps, episode reward 347.0 in 2580 steps
-2020-03-12 08:18:43,501 : Time 13h 14m 52s, already train 14903046 steps, episode reward 326.0 in 2376 steps
-2020-03-12 08:20:35,502 : Time 13h 16m 44s, already train 14939022 steps, episode reward 109.0 in 1914 steps
-2020-03-12 08:22:30,615 : Time 13h 18m 39s, already train 14975731 steps, episode reward 266.0 in 2259 steps
-2020-03-12 08:24:19,843 : Time 13h 20m 29s, already train 15011033 steps, episode reward 379.0 in 2462 steps
-2020-03-12 08:26:17,000 : Time 13h 22m 26s, already train 15049329 steps, episode reward 263.0 in 2288 steps
-2020-03-12 08:28:08,472 : Time 13h 24m 17s, already train 15085147 steps, episode reward 142.0 in 2150 steps
-2020-03-12 08:30:11,578 : Time 13h 26m 20s, already train 15125196 steps, episode reward 118.0 in 2210 steps
-2020-03-12 08:32:21,072 : Time 13h 28m 30s, already train 15166677 steps, episode reward 197.0 in 2583 steps
-2020-03-12 08:34:17,400 : Time 13h 30m 26s, already train 15204158 steps, episode reward 113.0 in 1850 steps
-2020-03-12 08:36:13,485 : Time 13h 32m 22s, already train 15241370 steps, episode reward 235.0 in 2008 steps
-2020-03-12 08:38:09,563 : Time 13h 34m 18s, already train 15278749 steps, episode reward 262.0 in 2271 steps
-2020-03-12 08:40:01,417 : Time 13h 36m 10s, already train 15314824 steps, episode reward 340.0 in 2216 steps
-2020-03-12 08:41:55,859 : Time 13h 38m 05s, already train 15351407 steps, episode reward 145.0 in 2127 steps
-2020-03-12 08:44:07,909 : Time 13h 40m 17s, already train 15393634 steps, episode reward 391.0 in 2779 steps
-2020-03-12 08:45:50,862 : Time 13h 42m 00s, already train 15426858 steps, episode reward 100.0 in 1718 steps
-2020-03-12 08:47:55,035 : Time 13h 44m 04s, already train 15466153 steps, episode reward 192.0 in 2507 steps
-2020-03-12 08:49:45,273 : Time 13h 45m 54s, already train 15501295 steps, episode reward 296.0 in 1994 steps
-2020-03-12 08:51:36,107 : Time 13h 47m 45s, already train 15537775 steps, episode reward 137.0 in 2076 steps
-2020-03-12 08:53:19,855 : Time 13h 49m 29s, already train 15570420 steps, episode reward 82.0 in 1764 steps
-2020-03-12 08:55:06,792 : Time 13h 51m 15s, already train 15604927 steps, episode reward 121.0 in 1939 steps
-2020-03-12 08:56:53,119 : Time 13h 53m 02s, already train 15639305 steps, episode reward 152.0 in 2087 steps
-2020-03-12 08:59:21,021 : Time 13h 55m 30s, already train 15687177 steps, episode reward 430.0 in 3194 steps
-2020-03-12 09:01:29,064 : Time 13h 57m 38s, already train 15728703 steps, episode reward 367.0 in 2735 steps
-2020-03-12 09:03:19,574 : Time 13h 59m 28s, already train 15764193 steps, episode reward 221.0 in 2035 steps
-2020-03-12 09:05:41,471 : Time 14h 01m 50s, already train 15809736 steps, episode reward 369.0 in 2499 steps
-2020-03-12 09:08:05,915 : Time 14h 04m 15s, already train 15857191 steps, episode reward 356.0 in 1817 steps
-2020-03-12 09:10:59,138 : Time 14h 07m 08s, already train 15913870 steps, episode reward 395.0 in 2328 steps
-2020-03-12 09:13:21,296 : Time 14h 09m 30s, already train 15960556 steps, episode reward 197.0 in 2065 steps
-2020-03-12 09:15:42,789 : Time 14h 11m 51s, already train 16005320 steps, episode reward 128.0 in 1943 steps
-2020-03-12 09:18:18,226 : Time 14h 14m 27s, already train 16055251 steps, episode reward 101.0 in 2085 steps
-2020-03-12 09:20:46,882 : Time 14h 16m 56s, already train 16103150 steps, episode reward 140.0 in 1720 steps
-2020-03-12 09:23:24,304 : Time 14h 19m 33s, already train 16154702 steps, episode reward 322.0 in 1916 steps
-2020-03-12 09:26:12,091 : Time 14h 22m 21s, already train 16208445 steps, episode reward 300.0 in 2330 steps
-2020-03-12 09:29:08,300 : Time 14h 25m 17s, already train 16265449 steps, episode reward 373.0 in 2569 steps
-2020-03-12 09:32:14,862 : Time 14h 28m 24s, already train 16325627 steps, episode reward 302.0 in 2363 steps
-2020-03-12 09:34:54,238 : Time 14h 31m 03s, already train 16377884 steps, episode reward 267.0 in 2035 steps
-2020-03-12 09:37:48,643 : Time 14h 33m 57s, already train 16434306 steps, episode reward 407.0 in 2578 steps
-2020-03-12 09:40:33,936 : Time 14h 36m 43s, already train 16487975 steps, episode reward 245.0 in 2251 steps
-2020-03-12 09:43:25,697 : Time 14h 39m 34s, already train 16544164 steps, episode reward 347.0 in 2412 steps
-2020-03-12 09:45:55,984 : Time 14h 42m 05s, already train 16593225 steps, episode reward 80.0 in 1992 steps
-2020-03-12 09:48:26,023 : Time 14h 44m 35s, already train 16641936 steps, episode reward 89.0 in 1896 steps
-2020-03-12 09:51:25,911 : Time 14h 47m 35s, already train 16700916 steps, episode reward 297.0 in 2340 steps
-2020-03-12 09:54:34,459 : Time 14h 50m 43s, already train 16761695 steps, episode reward 376.0 in 2544 steps
-2020-03-12 09:56:59,540 : Time 14h 53m 08s, already train 16807842 steps, episode reward 85.0 in 1698 steps
-2020-03-12 09:59:45,143 : Time 14h 55m 54s, already train 16860218 steps, episode reward 271.0 in 2270 steps
-2020-03-12 10:02:17,554 : Time 14h 58m 26s, already train 16908176 steps, episode reward 281.0 in 1973 steps
-2020-03-12 10:04:58,656 : Time 15h 01m 07s, already train 16958631 steps, episode reward 171.0 in 2128 steps
-2020-03-12 10:07:12,739 : Time 15h 03m 21s, already train 17001098 steps, episode reward 72.0 in 1450 steps
-2020-03-12 10:09:25,616 : Time 15h 05m 34s, already train 17043442 steps, episode reward 107.0 in 1744 steps
-2020-03-12 10:12:35,060 : Time 15h 08m 44s, already train 17103386 steps, episode reward 408.0 in 2897 steps
-2020-03-12 10:14:30,921 : Time 15h 10m 40s, already train 17140138 steps, episode reward 198.0 in 1787 steps
-2020-03-12 10:16:42,528 : Time 15h 12m 51s, already train 17182489 steps, episode reward 319.0 in 2376 steps
-2020-03-12 10:19:15,663 : Time 15h 15m 24s, already train 17231932 steps, episode reward 287.0 in 2015 steps
-2020-03-12 10:21:43,777 : Time 15h 17m 52s, already train 17278801 steps, episode reward 300.0 in 2015 steps
-2020-03-12 10:24:12,470 : Time 15h 20m 21s, already train 17326230 steps, episode reward 82.0 in 1678 steps
-2020-03-12 10:27:02,963 : Time 15h 23m 12s, already train 17379528 steps, episode reward 356.0 in 2318 steps
-2020-03-12 10:28:43,735 : Time 15h 24m 52s, already train 17411137 steps, episode reward 197.0 in 2009 steps
-2020-03-12 10:30:27,037 : Time 15h 26m 36s, already train 17443392 steps, episode reward 137.0 in 2059 steps
-2020-03-12 10:32:19,629 : Time 15h 28m 28s, already train 17478167 steps, episode reward 351.0 in 2520 steps
-2020-03-12 10:33:53,170 : Deadlock -> Done 3 lives remained with action 3
-2020-03-12 10:33:53,170 : Time 15h 30m 02s, already train 17507685 steps, episode reward 263.0 in 1562 steps
-2020-03-12 10:35:22,203 : Time 15h 31m 31s, already train 17537828 steps, episode reward 82.0 in 1670 steps
-2020-03-12 10:37:02,101 : Time 15h 33m 11s, already train 17572068 steps, episode reward 89.0 in 2064 steps
-2020-03-12 10:38:35,690 : Time 15h 34m 44s, already train 17605105 steps, episode reward 92.0 in 1667 steps
-2020-03-12 10:40:11,797 : Time 15h 36m 20s, already train 17639865 steps, episode reward 321.0 in 2103 steps
+2020-03-15 01:20:36,173 : Time 00h 00m 20s, already train 1 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:21:28,777 : Time 00h 01m 13s, already train 11350 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:22:19,387 : Time 00h 02m 04s, already train 23420 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:23:10,373 : Time 00h 02m 55s, already train 35353 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:24:03,078 : Time 00h 03m 47s, already train 47877 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:25:03,315 : Time 00h 04m 48s, already train 60726 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:25:50,272 : Time 00h 05m 34s, already train 75187 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:26:40,031 : Time 00h 06m 24s, already train 86835 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:27:31,438 : Time 00h 07m 16s, already train 99167 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:28:19,248 : Time 00h 08m 03s, already train 111808 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 01:29:05,914 : Time 00h 08m 50s, already train 123538 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 02:20:06,945 : Time 00h 59m 51s, already train 135467 steps, each 10 episodes average_score 0.0, best_score 0
+2020-03-15 02:28:32,260 : Time 01h 08m 16s, already train 814896 steps, each 10 episodes average_score 14.3, best_score 25.0
+2020-03-15 02:37:01,317 : Time 01h 16m 46s, already train 912817 steps, each 10 episodes average_score 27.9, best_score 42.0
+2020-03-15 02:42:46,602 : Time 01h 22m 31s, already train 1012272 steps, each 10 episodes average_score 22.2, best_score 49.0
+2020-03-15 02:47:57,466 : Time 01h 27m 42s, already train 1079502 steps, each 10 episodes average_score 33.1, best_score 43.0
+2020-03-15 02:53:17,811 : Time 01h 33m 02s, already train 1139817 steps, each 10 episodes average_score 30.4, best_score 64.0
+2020-03-15 02:59:42,112 : Time 01h 39m 26s, already train 1202128 steps, each 10 episodes average_score 38.7, best_score 65.0
+2020-03-15 03:04:50,945 : Time 01h 44m 35s, already train 1278194 steps, each 10 episodes average_score 32.8, best_score 56.0
+2020-03-15 03:11:16,498 : Time 01h 51m 01s, already train 1336887 steps, each 10 episodes average_score 64.0, best_score 99.0
+2020-03-15 03:17:37,667 : Time 01h 57m 22s, already train 1412582 steps, each 10 episodes average_score 52.6, best_score 85.0
+2020-03-15 03:23:33,354 : Time 02h 03m 18s, already train 1487944 steps, each 10 episodes average_score 53.9, best_score 84.0
+2020-03-15 03:30:46,671 : Time 02h 10m 31s, already train 1557648 steps, each 10 episodes average_score 68.5, best_score 104.0
+2020-03-15 03:36:07,909 : Time 02h 15m 52s, already train 1640429 steps, each 10 episodes average_score 34.5, best_score 61.0
+2020-03-15 03:43:42,908 : Time 02h 23m 27s, already train 1698477 steps, each 10 episodes average_score 78.5, best_score 111.0
+2020-03-15 03:50:39,479 : Time 02h 30m 24s, already train 1781443 steps, each 10 episodes average_score 72.4, best_score 143.0
+2020-03-15 03:57:38,476 : Time 02h 37m 23s, already train 1857553 steps, each 10 episodes average_score 65.5, best_score 121.0
+2020-03-15 04:05:22,419 : Time 02h 45m 07s, already train 1934028 steps, each 10 episodes average_score 83.5, best_score 117.0
+2020-03-15 04:12:56,426 : Time 02h 52m 41s, already train 2017930 steps, each 10 episodes average_score 73.0, best_score 125.0
+2020-03-15 04:20:35,290 : Time 03h 00m 20s, already train 2099340 steps, each 10 episodes average_score 86.7, best_score 238.0
+2020-03-15 04:29:19,215 : Time 03h 09m 03s, already train 2181730 steps, each 10 episodes average_score 84.1, best_score 99.0
+2020-03-15 04:37:45,223 : Time 03h 17m 29s, already train 2274351 steps, each 10 episodes average_score 71.2, best_score 211.0
+2020-03-15 04:44:26,984 : Time 03h 24m 11s, already train 2362594 steps, each 10 episodes average_score 62.7, best_score 97.0
+2020-03-15 04:52:48,691 : Time 03h 32m 33s, already train 2431528 steps, each 10 episodes average_score 99.9, best_score 329.0
+2020-03-15 05:00:57,870 : Time 03h 40m 42s, already train 2519847 steps, each 10 episodes average_score 67.7, best_score 89.0
+2020-03-15 05:07:44,200 : Time 03h 47m 28s, already train 2606153 steps, each 10 episodes average_score 49.1, best_score 64.0
+2020-03-15 05:14:49,526 : Time 03h 54m 34s, already train 2677694 steps, each 10 episodes average_score 70.2, best_score 110.0
+2020-03-15 05:21:44,724 : Time 04h 01m 29s, already train 2753691 steps, each 10 episodes average_score 31.7, best_score 78.0
+2020-03-15 05:28:50,342 : Time 04h 08m 35s, already train 2824630 steps, each 10 episodes average_score 71.8, best_score 117.0
+2020-03-15 05:36:50,817 : Time 04h 16m 35s, already train 2895011 steps, each 10 episodes average_score 86.8, best_score 160.0
+2020-03-15 05:44:43,175 : Time 04h 24m 27s, already train 2975400 steps, each 10 episodes average_score 93.4, best_score 144.0
+2020-03-15 05:51:50,169 : Time 04h 31m 34s, already train 3056823 steps, each 10 episodes average_score 74.6, best_score 122.0
+2020-03-15 05:59:44,706 : Time 04h 39m 29s, already train 3131096 steps, each 10 episodes average_score 92.8, best_score 206.0
+2020-03-15 06:07:25,762 : Time 04h 47m 10s, already train 3214248 steps, each 10 episodes average_score 82.6, best_score 130.0
+2020-03-15 06:14:39,531 : Time 04h 54m 24s, already train 3294958 steps, each 10 episodes average_score 73.0, best_score 94.0
+2020-03-15 06:22:31,101 : Time 05h 02m 15s, already train 3371795 steps, each 10 episodes average_score 119.1, best_score 296.0
+2020-03-15 06:30:11,862 : Time 05h 09m 56s, already train 3455210 steps, each 10 episodes average_score 114.9, best_score 278.0
+2020-03-15 06:38:43,525 : Time 05h 18m 28s, already train 3538301 steps, each 10 episodes average_score 118.6, best_score 258.0
+2020-03-15 06:46:29,794 : Time 05h 26m 14s, already train 3629069 steps, each 10 episodes average_score 97.4, best_score 127.0
+2020-03-15 06:54:47,365 : Time 05h 34m 32s, already train 3712828 steps, each 10 episodes average_score 109.7, best_score 202.0
+2020-03-15 07:03:33,970 : Time 05h 43m 18s, already train 3801798 steps, each 10 episodes average_score 117.4, best_score 197.0
+2020-03-15 07:09:46,582 : Time 05h 49m 31s, already train 3903269 steps, each 10 episodes average_score 39.7, best_score 125.0
+2020-03-15 07:18:53,340 : Time 05h 58m 38s, already train 3976734 steps, each 10 episodes average_score 113.2, best_score 203.0
+2020-03-15 07:27:25,329 : Time 06h 07m 10s, already train 4087787 steps, each 10 episodes average_score 108.4, best_score 289.0
+2020-03-15 07:36:46,797 : Time 06h 16m 31s, already train 4192777 steps, each 10 episodes average_score 134.0, best_score 203.0
+2020-03-15 07:45:34,458 : Time 06h 25m 19s, already train 4307980 steps, each 10 episodes average_score 180.8, best_score 342.0
+2020-03-15 07:54:33,382 : Time 06h 34m 18s, already train 4418406 steps, each 10 episodes average_score 134.4, best_score 244.0
+2020-03-15 08:03:19,665 : Time 06h 43m 04s, already train 4531330 steps, each 10 episodes average_score 119.8, best_score 193.0
+2020-03-15 08:12:35,485 : Time 06h 52m 20s, already train 4642309 steps, each 10 episodes average_score 155.7, best_score 393.0
+2020-03-15 08:22:14,209 : Time 07h 01m 58s, already train 4759044 steps, each 10 episodes average_score 158.6, best_score 297.0
+2020-03-15 08:31:34,183 : Time 07h 11m 18s, already train 4882476 steps, each 10 episodes average_score 157.2, best_score 249.0
+2020-03-15 08:40:19,607 : Time 07h 20m 04s, already train 5001567 steps, each 10 episodes average_score 171.9, best_score 370.0
+2020-03-15 08:48:36,675 : Time 07h 28m 21s, already train 5112568 steps, each 10 episodes average_score 131.2, best_score 356.0
+2020-03-15 08:58:18,124 : Time 07h 38m 02s, already train 5217865 steps, each 10 episodes average_score 137.7, best_score 343.0
+2020-03-15 09:09:45,165 : Time 07h 49m 29s, already train 5342124 steps, each 10 episodes average_score 156.7, best_score 253.0
+2020-03-15 09:18:55,595 : Time 07h 58m 40s, already train 5492565 steps, each 10 episodes average_score 104.3, best_score 177.0
+2020-03-15 09:28:36,280 : Time 08h 08m 20s, already train 5611849 steps, each 10 episodes average_score 184.0, best_score 336.0
+2020-03-15 09:37:21,864 : Time 08h 17m 06s, already train 5739745 steps, each 10 episodes average_score 145.5, best_score 387.0
+2020-03-15 09:48:10,468 : Time 08h 27m 55s, already train 5853228 steps, each 10 episodes average_score 240.7, best_score 428.0
+2020-03-15 09:57:48,407 : Time 08h 37m 33s, already train 5995540 steps, each 10 episodes average_score 183.6, best_score 364.0
+2020-03-15 10:04:55,621 : Time 08h 44m 40s, already train 6130565 steps, each 10 episodes average_score 112.0, best_score 243.0
+2020-03-15 10:12:45,691 : Time 08h 52m 30s, already train 6271781 steps, each 10 episodes average_score 179.1, best_score 363.0
+2020-03-15 10:20:40,234 : Time 09h 00m 24s, already train 6426079 steps, each 10 episodes average_score 194.6, best_score 328.0
+2020-03-15 10:28:31,984 : Time 09h 08m 16s, already train 6582159 steps, each 10 episodes average_score 205.7, best_score 369.0
+2020-03-15 10:37:50,197 : Time 09h 17m 34s, already train 6735483 steps, each 10 episodes average_score 207.0, best_score 420.0
+2020-03-15 10:45:45,753 : Time 09h 25m 30s, already train 6917219 steps, each 10 episodes average_score 198.7, best_score 355.0
+2020-03-15 10:53:03,680 : Time 09h 32m 48s, already train 7071463 steps, each 10 episodes average_score 120.2, best_score 269.0
+2020-03-15 11:00:40,373 : Time 09h 40m 25s, already train 7212723 steps, each 10 episodes average_score 200.7, best_score 426.0
+2020-03-15 11:09:22,964 : Time 09h 49m 07s, already train 7360349 steps, each 10 episodes average_score 239.8, best_score 397.0
+2020-03-15 11:17:33,554 : Time 09h 57m 18s, already train 7529315 steps, each 10 episodes average_score 196.9, best_score 356.0
+2020-03-15 11:26:26,912 : Time 10h 06m 11s, already train 7688635 steps, each 10 episodes average_score 223.3, best_score 392.0
+2020-03-15 11:34:31,385 : Time 10h 14m 16s, already train 7860015 steps, each 10 episodes average_score 234.5, best_score 358.0
+2020-03-15 11:42:51,913 : Time 10h 22m 36s, already train 8016765 steps, each 10 episodes average_score 224.8, best_score 402.0
+2020-03-15 11:50:49,071 : Time 10h 30m 33s, already train 8178963 steps, each 10 episodes average_score 178.2, best_score 350.0
+2020-03-15 11:58:15,299 : Time 10h 38m 00s, already train 8333925 steps, each 10 episodes average_score 119.7, best_score 225.0
+2020-03-15 12:06:10,894 : Time 10h 45m 55s, already train 8477782 steps, each 10 episodes average_score 192.2, best_score 341.0
+2020-03-15 12:13:46,454 : Time 10h 53m 31s, already train 8631420 steps, each 10 episodes average_score 161.6, best_score 372.0
+2020-03-15 12:21:53,198 : Time 11h 01m 37s, already train 8778569 steps, each 10 episodes average_score 269.9, best_score 379.0
+2020-03-15 12:30:04,347 : Time 11h 09m 49s, already train 8936403 steps, each 10 episodes average_score 156.5, best_score 385.0
+2020-03-15 12:39:08,783 : Time 11h 18m 53s, already train 9094752 steps, each 10 episodes average_score 241.9, best_score 397.0
+2020-03-15 12:48:23,626 : Time 11h 28m 08s, already train 9271100 steps, each 10 episodes average_score 266.1, best_score 396.0
+2020-03-15 12:57:14,048 : Time 11h 36m 58s, already train 9450279 steps, each 10 episodes average_score 248.0, best_score 372.0
+2020-03-15 13:05:46,553 : Time 11h 45m 31s, already train 9622189 steps, each 10 episodes average_score 241.7, best_score 387.0
+2020-03-15 13:14:19,303 : Time 11h 54m 04s, already train 9788524 steps, each 10 episodes average_score 240.1, best_score 405.0
+2020-03-15 13:23:02,790 : Time 12h 02m 47s, already train 9954751 steps, each 10 episodes average_score 244.1, best_score 395.0
+2020-03-15 13:30:48,801 : Time 12h 10m 33s, already train 10124615 steps, each 10 episodes average_score 196.3, best_score 389.0
+2020-03-15 13:37:48,084 : Time 12h 17m 32s, already train 10274874 steps, each 10 episodes average_score 90.2, best_score 137.0
+2020-03-15 13:46:33,987 : Time 12h 26m 18s, already train 10409295 steps, each 10 episodes average_score 226.8, best_score 422.0
+2020-03-15 13:59:45,304 : Time 12h 39m 30s, already train 10563626 steps, each 10 episodes average_score 223.1, best_score 387.0
+2020-03-15 14:11:56,773 : Time 12h 51m 41s, already train 10730219 steps, each 10 episodes average_score 225.6, best_score 329.0
+2020-03-15 14:34:31,230 : Time 13h 14m 15s, already train 10888609 steps, each 10 episodes average_score 253.2, best_score 347.0
+2020-03-15 15:02:38,070 : Time 13h 42m 22s, already train 11188612 steps, each 10 episodes average_score 136.5, best_score 316.0
+2020-03-15 15:32:35,014 : Time 14h 12m 19s, already train 11568046 steps, each 10 episodes average_score 201.7, best_score 405.0
+2020-03-15 15:55:38,650 : Time 14h 35m 23s, already train 11980785 steps, each 10 episodes average_score 236.3, best_score 405.0
+2020-03-15 16:23:51,290 : Time 15h 03m 36s, already train 12295847 steps, each 10 episodes average_score 161.6, best_score 426.0
+2020-03-15 16:59:37,176 : Time 15h 39m 21s, already train 12684092 steps, each 10 episodes average_score 302.3, best_score 417.0
+2020-03-15 17:31:08,753 : Time 16h 10m 53s, already train 13185457 steps, each 10 episodes average_score 205.9, best_score 424.0
+2020-03-15 18:07:05,420 : Time 16h 46m 50s, already train 13625814 steps, each 10 episodes average_score 287.6, best_score 401.0
+2020-03-15 18:33:54,810 : Time 17h 13m 39s, already train 14124773 steps, each 10 episodes average_score 279.6, best_score 405.0
+2020-03-15 18:43:19,517 : Time 17h 23m 04s, already train 14495239 steps, each 10 episodes average_score 262.8, best_score 386.0
+2020-03-15 18:51:47,957 : Time 17h 31m 32s, already train 14621965 steps, each 10 episodes average_score 256.2, best_score 415.0
+2020-03-15 19:00:17,748 : Time 17h 40m 02s, already train 14741531 steps, each 10 episodes average_score 299.5, best_score 467.0
+2020-03-15 19:06:52,181 : Time 17h 46m 36s, already train 14863871 steps, each 10 episodes average_score 289.6, best_score 415.0
+2020-03-15 19:14:33,205 : Time 17h 54m 17s, already train 14961634 steps, each 10 episodes average_score 266.9, best_score 351.0
+2020-03-15 19:20:03,985 : Time 17h 59m 48s, already train 15075987 steps, each 10 episodes average_score 209.6, best_score 395.0
+2020-03-15 19:27:52,956 : Time 18h 07m 37s, already train 15158502 steps, each 10 episodes average_score 331.6, best_score 428.0
+2020-03-15 19:34:21,436 : Time 18h 14m 06s, already train 15274749 steps, each 10 episodes average_score 272.3, best_score 404.0
+2020-03-15 19:40:52,639 : Time 18h 20m 37s, already train 15370668 steps, each 10 episodes average_score 238.2, best_score 397.0
+2020-03-15 19:48:14,076 : Time 18h 27m 58s, already train 15467201 steps, each 10 episodes average_score 295.2, best_score 339.0
+2020-03-15 19:54:56,592 : Time 18h 34m 41s, already train 15576161 steps, each 10 episodes average_score 264.8, best_score 427.0
+2020-03-15 20:01:19,378 : Time 18h 41m 04s, already train 15675751 steps, each 10 episodes average_score 263.9, best_score 426.0
+2020-03-15 20:12:06,264 : Time 18h 51m 50s, already train 15769889 steps, each 10 episodes average_score 314.6, best_score 410.0
+2020-03-15 20:17:48,296 : Time 18h 57m 33s, already train 15929874 steps, each 10 episodes average_score 171.9, best_score 313.0
+2020-03-15 20:25:35,202 : Time 19h 05m 19s, already train 16014497 steps, each 10 episodes average_score 351.6, best_score 412.0
+2020-03-15 20:31:51,297 : Time 19h 11m 36s, already train 16129327 steps, each 10 episodes average_score 232.5, best_score 406.0
+2020-03-15 20:39:06,645 : Time 19h 18m 51s, already train 16221596 steps, each 10 episodes average_score 284.5, best_score 419.0
+2020-03-15 20:45:25,687 : Time 19h 25m 10s, already train 16329253 steps, each 10 episodes average_score 282.6, best_score 394.0
+2020-03-15 20:52:43,711 : Time 19h 32m 28s, already train 16423266 steps, each 10 episodes average_score 263.6, best_score 473.0
+2020-03-15 20:58:48,329 : Time 19h 38m 33s, already train 16531409 steps, each 10 episodes average_score 235.0, best_score 363.0
+2020-03-15 21:05:20,834 : Time 19h 45m 05s, already train 16621056 steps, each 10 episodes average_score 268.1, best_score 400.0
+2020-03-15 21:12:07,685 : Time 19h 51m 52s, already train 16717646 steps, each 10 episodes average_score 325.7, best_score 424.0
+2020-03-15 21:18:28,091 : Time 19h 58m 12s, already train 16818347 steps, each 10 episodes average_score 256.5, best_score 382.0
+2020-03-15 21:24:19,608 : Time 20h 04m 04s, already train 16911819 steps, each 10 episodes average_score 243.9, best_score 359.0
+2020-03-15 21:31:53,867 : Time 20h 11m 38s, already train 16998510 steps, each 10 episodes average_score 322.2, best_score 402.0
+2020-03-15 21:38:33,648 : Time 20h 18m 18s, already train 17110301 steps, each 10 episodes average_score 299.6, best_score 395.0
+2020-03-15 21:44:56,949 : Time 20h 24m 41s, already train 17208376 steps, each 10 episodes average_score 254.6, best_score 379.0
+2020-03-15 21:51:01,319 : Time 20h 30m 46s, already train 17302788 steps, each 10 episodes average_score 200.9, best_score 366.0
+2020-03-15 21:58:06,970 : Time 20h 37m 51s, already train 17391814 steps, each 10 episodes average_score 335.0, best_score 417.0
+2020-03-15 22:05:43,733 : Time 20h 45m 28s, already train 17494286 steps, each 10 episodes average_score 308.8, best_score 391.0
+2020-03-15 22:13:20,541 : Time 20h 53m 05s, already train 17604699 steps, each 10 episodes average_score 293.0, best_score 392.0
+2020-03-15 22:20:45,348 : Time 21h 00m 30s, already train 17715097 steps, each 10 episodes average_score 326.8, best_score 433.0
+2020-03-15 22:28:57,284 : Time 21h 08m 42s, already train 17822521 steps, each 10 episodes average_score 306.1, best_score 388.0
+2020-03-15 22:36:31,420 : Time 21h 16m 16s, already train 17940409 steps, each 10 episodes average_score 322.5, best_score 389.0
+2020-03-15 22:42:38,922 : Time 21h 22m 23s, already train 18048897 steps, each 10 episodes average_score 275.4, best_score 377.0
+2020-03-15 22:49:40,158 : Time 21h 29m 24s, already train 18137235 steps, each 10 episodes average_score 251.3, best_score 380.0
+2020-03-15 22:56:19,698 : Time 21h 36m 04s, already train 18238702 steps, each 10 episodes average_score 234.6, best_score 359.0
+2020-03-15 23:04:34,510 : Time 21h 44m 19s, already train 18335047 steps, each 10 episodes average_score 304.4, best_score 397.0
+2020-03-15 23:12:52,703 : Time 21h 52m 37s, already train 18454735 steps, each 10 episodes average_score 277.0, best_score 402.0
+2020-03-15 23:20:00,357 : Time 21h 59m 45s, already train 18574999 steps, each 10 episodes average_score 272.8, best_score 397.0
+2020-03-15 23:28:38,729 : Time 22h 08m 23s, already train 18678030 steps, each 10 episodes average_score 248.7, best_score 393.0
+2020-03-15 23:36:34,794 : Time 22h 16m 19s, already train 18803210 steps, each 10 episodes average_score 329.1, best_score 405.0
+2020-03-15 23:44:14,013 : Time 22h 23m 58s, already train 18918309 steps, each 10 episodes average_score 273.3, best_score 405.0
+2020-03-15 23:51:27,431 : Time 22h 31m 12s, already train 19027589 steps, each 10 episodes average_score 228.2, best_score 362.0
+2020-03-15 23:58:29,843 : Time 22h 38m 14s, already train 19131190 steps, each 10 episodes average_score 200.9, best_score 377.0
+2020-03-16 00:06:37,540 : Time 22h 46m 22s, already train 19231173 steps, each 10 episodes average_score 302.6, best_score 374.0
+2020-03-16 00:13:37,805 : Time 22h 53m 22s, already train 19349144 steps, each 10 episodes average_score 263.6, best_score 375.0
+2020-03-16 00:19:34,530 : Time 22h 59m 19s, already train 19451407 steps, each 10 episodes average_score 223.3, best_score 357.0
+2020-03-16 00:26:32,454 : Time 23h 06m 17s, already train 19538069 steps, each 10 episodes average_score 261.4, best_score 349.0
+2020-03-16 00:44:20,259 : Time 23h 24m 04s, already train 19639140 steps, each 10 episodes average_score 345.6, best_score 395.0
+2020-03-16 00:51:44,635 : Time 23h 31m 29s, already train 19897671 steps, each 10 episodes average_score 314.0, best_score 408.0
+2020-03-16 00:57:49,966 : Time 23h 37m 34s, already train 20006497 steps, each 10 episodes average_score 253.7, best_score 388.0
+2020-03-16 01:09:19,570 : Time 23h 49m 04s, already train 20094949 steps, each 10 episodes average_score 287.0, best_score 391.0
+2020-03-16 01:16:42,998 : Time 23h 56m 27s, already train 20262813 steps, each 10 episodes average_score 276.6, best_score 412.0
+2020-03-16 01:24:53,985 : Time 00h 04m 38s, already train 20370853 steps, each 10 episodes average_score 263.0, best_score 411.0
+2020-03-16 01:31:57,342 : Time 00h 11m 42s, already train 20490859 steps, each 10 episodes average_score 292.1, best_score 421.0
+2020-03-16 01:38:48,873 : Time 00h 18m 33s, already train 20595538 steps, each 10 episodes average_score 315.2, best_score 412.0
+2020-03-16 01:45:11,229 : Time 00h 24m 55s, already train 20696359 steps, each 10 episodes average_score 302.2, best_score 410.0
+2020-03-16 01:53:20,416 : Time 00h 33m 05s, already train 20789660 steps, each 10 episodes average_score 324.0, best_score 413.0
+2020-03-16 01:59:56,405 : Time 00h 39m 41s, already train 20907774 steps, each 10 episodes average_score 269.8, best_score 400.0
+2020-03-16 02:13:43,446 : Time 00h 53m 28s, already train 21004308 steps, each 10 episodes average_score 226.7, best_score 394.0
+2020-03-16 02:27:04,796 : Time 01h 06m 49s, already train 21206374 steps, each 10 episodes average_score 326.9, best_score 405.0
+2020-03-16 02:37:46,149 : Time 01h 17m 30s, already train 21403480 steps, each 10 episodes average_score 319.2, best_score 407.0
+2020-03-16 02:44:49,471 : Time 01h 24m 34s, already train 21561234 steps, each 10 episodes average_score 274.7, best_score 416.0
+2020-03-16 02:52:23,200 : Time 01h 32m 07s, already train 21665626 steps, each 10 episodes average_score 345.4, best_score 411.0
+2020-03-16 02:59:52,190 : Time 01h 39m 36s, already train 21775563 steps, each 10 episodes average_score 293.9, best_score 421.0
+2020-03-16 03:06:48,462 : Time 01h 46m 33s, already train 21886040 steps, each 10 episodes average_score 266.2, best_score 424.0
+2020-03-16 03:13:26,413 : Time 01h 53m 11s, already train 21988179 steps, each 10 episodes average_score 286.9, best_score 414.0
+2020-03-16 03:20:12,128 : Time 01h 59m 56s, already train 22085779 steps, each 10 episodes average_score 217.5, best_score 365.0
+2020-03-16 03:26:25,365 : Time 02h 06m 10s, already train 22185245 steps, each 10 episodes average_score 195.7, best_score 399.0
+2020-03-16 03:33:52,559 : Time 02h 13m 37s, already train 22276721 steps, each 10 episodes average_score 289.0, best_score 420.0
+2020-03-16 03:38:54,977 : Time 02h 18m 39s, already train 22387141 steps, each 10 episodes average_score 303.5, best_score 428.0
+2020-03-16 03:45:22,655 : Time 02h 25m 07s, already train 22461487 steps, each 10 episodes average_score 252.1, best_score 377.0
+2020-03-16 03:52:41,804 : Time 02h 32m 26s, already train 22556543 steps, each 10 episodes average_score 223.3, best_score 352.0
+2020-03-16 04:00:06,085 : Time 02h 39m 50s, already train 22665118 steps, each 10 episodes average_score 312.5, best_score 428.0
+2020-03-16 04:07:07,463 : Time 02h 46m 52s, already train 22774211 steps, each 10 episodes average_score 259.9, best_score 397.0
+2020-03-16 04:14:33,497 : Time 02h 54m 18s, already train 22878124 steps, each 10 episodes average_score 377.1, best_score 419.0
+2020-03-16 04:21:20,164 : Time 03h 01m 04s, already train 22987597 steps, each 10 episodes average_score 225.8, best_score 371.0
+2020-03-16 04:29:10,916 : Time 03h 08m 55s, already train 23087516 steps, each 10 episodes average_score 351.2, best_score 394.0
+2020-03-16 04:37:26,374 : Time 03h 17m 11s, already train 23202862 steps, each 10 episodes average_score 311.6, best_score 403.0
+2020-03-16 04:43:58,138 : Time 03h 23m 42s, already train 23323706 steps, each 10 episodes average_score 212.3, best_score 349.0
+2020-03-16 04:51:22,162 : Time 03h 31m 06s, already train 23419564 steps, each 10 episodes average_score 319.1, best_score 395.0
+2020-03-16 04:58:06,994 : Time 03h 37m 51s, already train 23528109 steps, each 10 episodes average_score 249.9, best_score 408.0
+2020-03-16 05:05:22,264 : Time 03h 45m 06s, already train 23626699 steps, each 10 episodes average_score 297.8, best_score 423.0
+2020-03-16 05:12:48,269 : Time 03h 52m 32s, already train 23732921 steps, each 10 episodes average_score 329.1, best_score 427.0
+2020-03-16 05:20:23,672 : Time 04h 00m 08s, already train 23841727 steps, each 10 episodes average_score 318.5, best_score 414.0
+2020-03-16 05:27:38,395 : Time 04h 07m 23s, already train 23953815 steps, each 10 episodes average_score 319.4, best_score 410.0
+2020-03-16 05:34:27,772 : Time 04h 14m 12s, already train 24061041 steps, each 10 episodes average_score 255.1, best_score 397.0
+2020-03-16 05:41:25,748 : Time 04h 21m 10s, already train 24162110 steps, each 10 episodes average_score 255.3, best_score 371.0
+2020-03-16 05:48:43,739 : Time 04h 28m 28s, already train 24265135 steps, each 10 episodes average_score 243.4, best_score 386.0
+2020-03-16 05:55:42,970 : Time 04h 35m 27s, already train 24373513 steps, each 10 episodes average_score 329.0, best_score 409.0
+2020-03-16 06:01:43,909 : Time 04h 41m 28s, already train 24476686 steps, each 10 episodes average_score 163.3, best_score 375.0
+2020-03-16 06:09:19,220 : Time 04h 49m 03s, already train 24565394 steps, each 10 episodes average_score 311.1, best_score 384.0
+2020-03-16 06:15:00,818 : Time 04h 54m 45s, already train 24677137 steps, each 10 episodes average_score 250.2, best_score 392.0
+2020-03-16 06:20:48,485 : Time 05h 00m 33s, already train 24761845 steps, each 10 episodes average_score 298.1, best_score 386.0
+2020-03-16 06:26:27,054 : Time 05h 06m 11s, already train 24848276 steps, each 10 episodes average_score 328.5, best_score 399.0
+2020-03-16 06:31:48,048 : Time 05h 11m 32s, already train 24932300 steps, each 10 episodes average_score 305.3, best_score 404.0
+2020-03-16 06:37:25,944 : Time 05h 17m 10s, already train 25011875 steps, each 10 episodes average_score 292.5, best_score 418.0
+2020-03-16 06:43:34,606 : Time 05h 23m 19s, already train 25095774 steps, each 10 episodes average_score 355.4, best_score 421.0
+2020-03-16 06:48:40,117 : Time 05h 28m 24s, already train 25187379 steps, each 10 episodes average_score 268.7, best_score 403.0
+2020-03-16 06:53:56,514 : Time 05h 33m 41s, already train 25263198 steps, each 10 episodes average_score 258.5, best_score 376.0
+2020-03-16 06:59:01,539 : Time 05h 38m 46s, already train 25341934 steps, each 10 episodes average_score 260.6, best_score 375.0
+2020-03-16 07:04:19,411 : Time 05h 44m 04s, already train 25417466 steps, each 10 episodes average_score 276.4, best_score 384.0
+2020-03-16 07:09:44,717 : Time 05h 49m 29s, already train 25496346 steps, each 10 episodes average_score 268.7, best_score 371.0
+2020-03-16 07:15:04,031 : Time 05h 54m 48s, already train 25577262 steps, each 10 episodes average_score 316.3, best_score 417.0
+2020-03-16 07:20:07,791 : Time 05h 59m 52s, already train 25656345 steps, each 10 episodes average_score 269.3, best_score 402.0
+2020-03-16 07:25:07,094 : Time 06h 04m 51s, already train 25731438 steps, each 10 episodes average_score 204.6, best_score 382.0
+2020-03-16 07:34:58,692 : Time 06h 14m 43s, already train 25805871 steps, each 10 episodes average_score 294.2, best_score 413.0
+2020-03-16 07:43:09,214 : Time 06h 22m 53s, already train 25952498 steps, each 10 episodes average_score 244.4, best_score 339.0
+2020-03-16 07:51:18,129 : Time 06h 31m 02s, already train 26074037 steps, each 10 episodes average_score 263.0, best_score 396.0
+2020-03-16 07:58:05,386 : Time 06h 37m 50s, already train 26195473 steps, each 10 episodes average_score 274.5, best_score 423.0
+2020-03-16 08:07:40,262 : Time 06h 47m 24s, already train 26296828 steps, each 10 episodes average_score 236.3, best_score 401.0
+2020-03-16 08:13:03,698 : Time 06h 52m 48s, already train 26439570 steps, each 10 episodes average_score 253.7, best_score 366.0
+2020-03-16 08:24:01,267 : Time 07h 03m 45s, already train 26519311 steps, each 10 episodes average_score 292.4, best_score 404.0
+2020-03-16 08:30:42,489 : Time 07h 10m 27s, already train 26682492 steps, each 10 episodes average_score 290.3, best_score 402.0
+2020-03-16 08:38:53,695 : Time 07h 18m 38s, already train 26781868 steps, each 10 episodes average_score 263.5, best_score 427.0
+2020-03-16 08:45:33,095 : Time 07h 25m 17s, already train 26903963 steps, each 10 episodes average_score 276.9, best_score 394.0
+2020-03-16 08:52:05,011 : Time 07h 31m 49s, already train 27002816 steps, each 10 episodes average_score 270.2, best_score 367.0
+2020-03-16 08:57:43,115 : Time 07h 37m 27s, already train 27099921 steps, each 10 episodes average_score 288.8, best_score 365.0
+2020-03-16 09:01:52,052 : Time 07h 41m 36s, already train 27185937 steps, each 10 episodes average_score 207.9, best_score 402.0
+2020-03-16 09:06:49,620 : Time 07h 46m 34s, already train 27260055 steps, each 10 episodes average_score 314.6, best_score 393.0
+2020-03-16 09:11:16,648 : Time 07h 51m 01s, already train 27348908 steps, each 10 episodes average_score 265.5, best_score 400.0
+2020-03-16 09:15:17,219 : Time 07h 55m 01s, already train 27428646 steps, each 10 episodes average_score 232.5, best_score 401.0
+2020-03-16 09:24:58,394 : Time 08h 04m 43s, already train 27499900 steps, each 10 episodes average_score 332.2, best_score 451.0
+2020-03-16 09:30:23,731 : Time 08h 10m 08s, already train 27619748 steps, each 10 episodes average_score 319.1, best_score 413.0
+2020-03-16 09:37:42,638 : Time 08h 17m 27s, already train 27701413 steps, each 10 episodes average_score 305.5, best_score 421.0
+2020-03-16 09:47:08,599 : Time 08h 26m 53s, already train 27794687 steps, each 10 episodes average_score 257.0, best_score 387.0
+2020-03-16 09:54:40,956 : Time 08h 34m 25s, already train 27903748 steps, each 10 episodes average_score 282.1, best_score 393.0
+2020-03-16 10:02:06,079 : Time 08h 41m 50s, already train 27992121 steps, each 10 episodes average_score 308.8, best_score 421.0
+2020-03-16 10:09:30,009 : Time 08h 49m 14s, already train 28080208 steps, each 10 episodes average_score 304.6, best_score 417.0
+2020-03-16 10:18:34,253 : Time 08h 58m 18s, already train 28167363 steps, each 10 episodes average_score 303.5, best_score 394.0
+2020-03-16 10:26:52,136 : Time 09h 06m 36s, already train 28275903 steps, each 10 episodes average_score 336.0, best_score 392.0
+2020-03-16 10:35:39,356 : Time 09h 15m 24s, already train 28374204 steps, each 10 episodes average_score 303.8, best_score 428.0
+2020-03-16 10:42:14,580 : Time 09h 21m 59s, already train 28456093 steps, each 10 episodes average_score 247.5, best_score 401.0
+2020-03-16 10:49:21,889 : Time 09h 29m 06s, already train 28505385 steps, each 10 episodes average_score 284.3, best_score 414.0
+2020-03-16 10:55:12,167 : Time 09h 34m 56s, already train 28558329 steps, each 10 episodes average_score 277.9, best_score 375.0
+2020-03-16 11:01:03,912 : Time 09h 40m 48s, already train 28601509 steps, each 10 episodes average_score 253.9, best_score 377.0
+2020-03-16 11:07:23,125 : Time 09h 47m 07s, already train 28644665 steps, each 10 episodes average_score 319.0, best_score 422.0
+2020-03-16 11:13:05,858 : Time 09h 52m 50s, already train 28690296 steps, each 10 episodes average_score 268.7, best_score 412.0
+2020-03-16 11:19:17,211 : Time 09h 59m 01s, already train 28732188 steps, each 10 episodes average_score 309.3, best_score 416.0
+2020-03-16 11:30:42,167 : Time 10h 10m 26s, already train 28773612 steps, each 10 episodes average_score 349.2, best_score 428.0
+2020-03-16 11:39:40,652 : Time 10h 19m 25s, already train 28833745 steps, each 10 episodes average_score 245.4, best_score 374.0
+2020-03-16 11:47:52,552 : Time 10h 27m 37s, already train 28875444 steps, each 10 episodes average_score 236.3, best_score 398.0
+2020-03-16 11:57:29,223 : Time 10h 37m 13s, already train 28915503 steps, each 10 episodes average_score 336.8, best_score 421.0
+2020-03-16 12:08:39,885 : Time 10h 48m 24s, already train 28962527 steps, each 10 episodes average_score 338.4, best_score 419.0
+2020-03-16 12:18:17,082 : Time 10h 58m 01s, already train 29017217 steps, each 10 episodes average_score 338.8, best_score 426.0
+2020-03-16 12:28:02,856 : Time 11h 07m 47s, already train 29064114 steps, each 10 episodes average_score 329.2, best_score 414.0
+2020-03-16 12:37:28,435 : Time 11h 17m 13s, already train 29111902 steps, each 10 episodes average_score 240.0, best_score 389.0
+2020-03-16 12:47:22,384 : Time 11h 27m 07s, already train 29158056 steps, each 10 episodes average_score 314.1, best_score 394.0
+2020-03-16 12:57:16,540 : Time 11h 37m 01s, already train 29206481 steps, each 10 episodes average_score 305.5, best_score 403.0
