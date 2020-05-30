@@ -1,10 +1,10 @@
 ## Atari-Breakout-DRL
 
-> **Team members**: @[andychinka](https://github.com/andychinka), @[kkaryl](https://github.com/kkaryl), @[Skye](), @[Tanmengxuan](https://github.com/Tanmengxuan), @[TeoChekLiang](https://github.com/TeoChekLiang)
+> **Team members**: @[andychinka](https://github.com/andychinka), @[kkaryl](https://github.com/kkaryl), @[Skye](https://github.com/RoyalSkye), @[Tanmengxuan](https://github.com/Tanmengxuan), @[TeoChekLiang](https://github.com/TeoChekLiang)
 >
 > * [DQN](./DQN)
 > * [Noisy DQN](./Noisy_DQN)
-> * [A3C](./A3C_DefaultEnv)
+> * [A3C](./A3C_DefaultENV)
 
 ### Abstract
 
@@ -52,6 +52,7 @@ Besides reducing the size of the input, we find that it will be useful to input 
   <img src="./res/state-stack.png" alt="Editor" height="200" /></br>
   Figure 2.2: Stacking the last 4 frames
 </p>
+
 2.3 Deep Q-Network (DQN)
 
 The DQN was introduced in 2013 [4]. It is known as a variant of the Q-learning algorithm and is trained using a Convolutional Neural Network (CNN). The input of the CNN is the sequence of state, and the outputs are the corresponding Q-values for each action.
@@ -67,6 +68,7 @@ In its implementation, the Experience Replay method is used to train the model. 
 <p align="center">
   <img src="./res/dqn.png" alt="Editor"  width="700" />
 </p>
+
 For our experiment, our network design is shown in Figure 2.3.
 
 <p align="center">
@@ -127,7 +129,7 @@ In practice, we can use an approximate TD error <img src="https://latex.codecogs
   <img src="https://latex.codecogs.com/svg.latex?%5Cdelta_v%20%3D%20r%20+%20%5Cgamma%20V_v%28s%27%29%20-%20V_v%28s%29" alt="Editor" />
 </p>
 
-A3C is the asynchronous version of advantage actor-critic (A2C). The pseudocode is presented in Algorithm 2. The policy and value functions are updated after every <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20t_%7Bmax%7D">actions or when a terminal state is reached. The update performed by the algorithm can be seen as <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20%5Cbigtriangledown_%7B%5Ctheta%27%7D%20log%5Cpi%28a_t%7Cst%3B%5Ctheta%27%29A%28s_t%2Ca_t%3B%5Ctheta%2C%5Ctheta_v%29"> where <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20A%28s_t%2Ca_t%3B%5Ctheta%2C%5Ctheta_v%29"> is an estimate of the advantage function given by <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20%5Csum_%7Bi%20%3D%200%7D%5E%7Bk-1%7D%20%5Cgamma%5Ei%20r_%7Bt+i%7D%20+%20%5Cgamma%5Ek%20V%28s_%7Bt+k%7D%3B%5Ctheta_v%29%20-%20V%28s_t%3B%5Ctheta_v%29"> where k varies from state to state and is upper-bounded by <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20t_%7Bmax%7D"> [7].
+A3C is the asynchronous version of advantage actor-critic (A2C). The pseudocode is presented in Algorithm 2. The policy and value functions are updated after every <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20t_%7Bmax%7D"> actions or when a terminal state is reached. The update performed by the algorithm can be seen as <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20%5Cbigtriangledown_%7B%5Ctheta%27%7D%20log%5Cpi%28a_t%7Cst%3B%5Ctheta%27%29A%28s_t%2Ca_t%3B%5Ctheta%2C%5Ctheta_v%29"> where <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20A%28s_t%2Ca_t%3B%5Ctheta%2C%5Ctheta_v%29"> is an estimate of the advantage function given by <img src="https://latex.codecogs.com/svg.latex?%5Ctiny%20%5Csum_%7Bi%20%3D%200%7D%5E%7Bk-1%7D%20%5Cgamma%5Ei%20r_%7Bt+i%7D%20+%20%5Cgamma%5Ek%20V%28s_%7Bt+k%7D%3B%5Ctheta_v%29%20-%20V%28s_t%3B%5Ctheta_v%29"> where k varies from state to state and is upper-bounded by <img src="https://latex.codecogs.com/svg.latex?%5Csmall%20t_%7Bmax%7D"> [7].
 
 David Silver et al. [7] also found that adding the entropy of the policy π to the objective function improved exploration by discouraging premature convergence to sub-optimal deterministic policies. The gradient of the full objective function including the entropy regularisation term with respect to the policy parameters takes the form below, where H is the entropy.
 
@@ -169,16 +171,17 @@ From Figure 3.1a and 3.1b, we see that the NoisyNet DQN consistently outperforms
 For the A3C, the setup is with 32 actor-learner threads running on a single server and no GPU. Each worker performed updates after every 20 actions (tmax = 20) and a shared Adam with 0.0001 learning rate was used for optimisation. The Atari environment was preprocessed into [80, 80] as input. The network used four convolutional layers with 32 filters of size 3 3 with stride 2, followed by a LSTM layer with hidden states dimension 512, followed by two fully connected layers for policy and value function approximation. All convolutional layers were followed by a rectifier nonlinearity. The model used by actor-critic agents had two set of outputs - a softmax output with one entry per action representing the probability of selecting the action, and a single linear output representing the value function. Generalized Advantage Estimation [8] was used to reduce the variance and improve performance. In the course of calculating loss, we assign 1.0, 0.5 and 0.01 as the weight to policy, value loss and entropies respectively. Furthermore, we clamp the values of gradient between 0 and 40 to prevent the gradient from taking huge values and degenerating the algorithm. Figure 3.1c and 3.1d show the average and best scores in 10 episodes after training for 35 hours. The results show that the A3C has a good result and better convergence properties compared with DQN or NoisyNet DQN. It starts to converge after training for 10M steps, while the DQN-methods may oscillate or chatter. The average score and best scores went beyond 350 and 400 respectively. During training, the DQN-methods requires a lot of computational resources. They tend to require about 150GB of memory if the size of experience replay memory is 1M. Contrastingly, the A3C can learn online and does not need to store the transitions.
 
 <p align="center">
-  <img src="./res/DQN_average.png" alt="Editor"  height="300" /></br>
+  <img src="./res/DQN_average.png" alt="Editor"  height="350" /></br>
   (a) DQN Average score</br>
-  <img src="./res/DQN_best.png" alt="Editor"  height="300" /></br>
+  <img src="./res/DQN_best.png" alt="Editor"  height="350" /></br>
   (b) DQN Best score</br>
-  <img src="./res/A3C_average.png" alt="Editor"  height="300" /></br>
+  <img src="./res/A3C_average.png" alt="Editor"  height="350" /></br>
   (c) A3C Average score</br>
-  <img src="./res/A3C_best.png" alt="Editor"  height="300" /></br>
+  <img src="./res/A3C_best.png" alt="Editor"  height="350" /></br>
   (d) A3C Best score</br>
   Figure 3.1: Test score recorded every 10 episodes
 </p>
+
 ### 4. Conclusion
 
 This project demonstrates two enhanced versions of vanilla DRL algorithms and clarifies reasons as to why each of the enhanced version has a better performance. Introducing noise on the neural network for NoisyNet DQN as well as the advantage function of the A3C on the value function are discussed to show enhancements to learning. Having multiple learning agents such as in the A3C has also proven to perform better than having only a single agent.
@@ -197,7 +200,7 @@ The team would like to credit the following two baseline codes used in our exper
 
 [1]  Hado Van Hasselt, Arthur Guez, and David Silver. “Deep reinforcement learning with double q-learning”. In: Thirtieth AAAI conference on artificial intelligence. 2016.
 
-[2]  Volodymyr Mnih et al. “Human-level control through deep reinforcement learning”. In: Na- ture 518.7540 (2015), pp. 529–533.
+[2]  Volodymyr Mnih et al. “Human-level control through deep reinforcement learning”. In: Nature 518.7540 (2015), pp. 529–533.
 
 [3]  Meire Fortunato et al. “Noisy networks for exploration”. In: arXiv preprint arXiv:1706.10295 (2017).
 
@@ -205,19 +208,19 @@ The team would like to credit the following two baseline codes used in our exper
 
 [5]  Ziyu Wang et al. “Dueling network architectures for deep reinforcement learning”. In: arXiv preprint arXiv:1511.06581 (2015).
 
-[6]  David Silver and DeepMind. RL Course by David Silver - [Lecture 7: Policy Gradient Methods](https://www.youtube.com/watch?v=KHZVXao4qXs&list=PLqYmG7hTraZDM- OYHWgPebj2MfCFzFObQ&index=7). Dec. 2015.
+[6]  David Silver and DeepMind. RL Course by David Silver - [Lecture 7: Policy Gradient Methods](https://www.youtube.com/watch?v=KHZVXao4qXs&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ&index=7). Dec. 2015.
 
-[7]  Volodymyr Mnih et al. “Asynchronous methods for deep reinforcement learning”. In: Inter- national conference on machine learning. 2016, pp. 1928–1937.
+[7]  Volodymyr Mnih et al. “Asynchronous methods for deep reinforcement learning”. In: International conference on machine learning. 2016, pp. 1928–1937.
 
-[8]  John Schulman et al. “High-dimensional continuous control using generalized advantage es- timation”. In: arXiv preprint arXiv:1506.02438 (2015).
+[8]  John Schulman et al. “High-dimensional continuous control using generalized advantage estimation”. In: arXiv preprint arXiv:1506.02438 (2015).
 
 [9]  Andrew W Moore and Christopher G Atkeson. “Prioritized sweeping: Reinforcement learning with less data and less time”. In: Machine learning 13.1 (1993), pp. 103–130.
 
-[10]  Harm Van Seijen et al. “True online temporal-difference learning”. In: The Journal of Ma- chine Learning Research 17.1 (2016), pp. 5057–5096.
+[10]  Harm Van Seijen et al. “True online temporal-difference learning”. In: The Journal of Machine Learning Research 17.1 (2016), pp. 5057–5096.
 
 [11]  Sergey Levine et al. “End-to-end training of deep visuomotor policies”. In: The Journal of Machine Learning Research 17.1 (2016), pp. 1334–1373.
 
-[12]  Svetlana Lazebnik. [CS498DL Assignment 5: Deep Reinforcement Learning](http://slazebni. cs.illinois.edu/fall18/assignment5.html). 2018.
+[12]  Svetlana Lazebnik. [CS498DL Assignment 5: Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/fall18/assignment5.html). 2018.
 
 [13]  Prafulla Dhariwal et al. [OpenAI Baselines](https://github.com/openai/baselines). 2017.
 
