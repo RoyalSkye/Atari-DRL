@@ -1,16 +1,21 @@
-
-## Train NoisyNet DQN
+## Atari-Noisy-DQN
+### Train NoisyNet DQN
 ```
 $ python main.py --train --save_path <model_path> --noisy
 ```
 
-## Resume Training
+### Resume Training
 ```
 $ python main.py --train --resume --resume_path <previous_saved_model_path> --save_path <new_model_path> --best <previous_best_ep_score> --noisy
 ```
 
-## Test model
+### Test model
 ```
 $ python main.py --test --save_path <saved_model_path> --noisy
 ```
 
+### Result
+
+![result1](./res/DQN_average.png)
+
+![result2](./res/DQN_best.png)
